@@ -62,6 +62,8 @@ class Matcher:
         self.textAgrams = self.textA.ngrams(ngramSize)
         self.textBgrams = self.textB.ngrams(ngramSize)
 
+        self.locations = [] 
+
     def getContext(self, text, start, length, context): 
         match = self.getTokensText(text, start, length)
         before = self.getTokensText(text, start-context, context)
@@ -82,7 +84,9 @@ class Matcher:
     def getLocations(self, text, start, length): 
         """ Gets the numeric locations of the match. """
         spans = text.spans[start:start+length]
-        return spans[0][0]/text.length, spans[-1][-1]/text.length
+        locations = (spans[0][0]/text.length, spans[-1][-1]/text.length)
+        self.locations.append(locations)
+        return locations
 
     def getMatch(self, match, textA, textB, context): 
         wordsA = self.getContext(textA, match.a, match.size, context)
@@ -194,7 +198,7 @@ def cli(text1, text2, threshold, ngrams, logfile, verbose):
 
         # Write to the log, but only if a match is found.
         if myMatch.numMatches > 0: 
-            line = [pair[0], pair[1], str(threshold), str(ngrams), str(myMatch.numMatches)]
+            line = [pair[0], pair[1], str(threshold), str(ngrams), str(myMatch.numMatches), str(myMatch.locations)]
             line = ",".join(line) + '\n'
             f = open(logfile, 'a')
             f.write(line)
