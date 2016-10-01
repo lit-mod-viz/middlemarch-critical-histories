@@ -85,7 +85,6 @@ class Matcher:
         """ Gets the numeric locations of the match. """
         spans = text.spans[start:start+length]
         locations = (spans[0][0]/text.length, spans[-1][-1]/text.length)
-        self.locations.append(locations)
         return locations
 
     def getMatch(self, match, textA, textB, context): 
@@ -93,6 +92,8 @@ class Matcher:
         wordsB = self.getContext(textB, match.b, match.size, context)
         spansA = self.getLocations(textA, match.a, match.size)
         spansB = self.getLocations(textB, match.b, match.size)
+        self.locationsA = spansA
+        self.locationsB = spansB
         line1 = ('%s: %s %s' % (colored(textA.filename, 'green'), spansA, wordsA) )
         line2 = ('%s: %s %s' % (colored(textB.filename, 'green'), spansB, wordsB) )
         return line1 + '\n' + line2
@@ -198,8 +199,9 @@ def cli(text1, text2, threshold, ngrams, logfile, verbose):
 
         # Write to the log, but only if a match is found.
         if myMatch.numMatches > 0: 
-            line = [pair[0], pair[1], str(threshold), str(ngrams), str(myMatch.numMatches), str(myMatch.locations)]
-            line = ",".join(line) + '\n'
+            logItems = [pair[0], pair[1], threshold, ngrams, myMatch.numMatches, str(myMatch.locationsA), str(myMatch.locationsB)]
+            logging.debug('Logging items: %s' % str(logItems))
+            line = ','.join(['"%s"' % item for item in logItems]) + '\n'
             f = open(logfile, 'a')
             f.write(line)
             f.close()
