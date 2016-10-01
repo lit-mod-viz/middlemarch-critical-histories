@@ -31,6 +31,8 @@ class Text:
         """ Tokenizes the text, breaking it up into words, removing punctuation. """
         tokenizer = nltk.RegexpTokenizer('[a-zA-Z]\w+\'?\w*') # A custom regex tokenizer. 
         spans = list(tokenizer.span_tokenize(self.text))
+        # Take note of how many spans there are in the text
+        self.length = spans[-1][-1] 
         tokens = tokenizer.tokenize(self.text)
         tokens = [ token.lower() for token in tokens ] # make them lowercase
         if not removeStopwords: 
@@ -77,11 +79,18 @@ class Matcher:
         passage = text.text[spans[0][0]:spans[-1][-1]]
         return passage 
 
+    def getLocations(self, text, start, length): 
+        """ Gets the numeric locations of the match. """
+        spans = text.spans[start:start+length]
+        return spans[0][0]/text.length, spans[-1][-1]/text.length
+
     def getMatch(self, match, textA, textB, context): 
         wordsA = self.getContext(textA, match.a, match.size, context)
         wordsB = self.getContext(textB, match.b, match.size, context)
-        line1 = ('%s: %s' % (colored(textA.filename, 'green'), wordsA) )
-        line2 = ('%s: %s' % (colored(textB.filename, 'green'), wordsB) )
+        spansA = self.getLocations(textA, match.a, match.size)
+        spansB = self.getLocations(textB, match.b, match.size)
+        line1 = ('%s: %s %s' % (colored(textA.filename, 'green'), spansA, wordsA) )
+        line2 = ('%s: %s %s' % (colored(textB.filename, 'green'), spansB, wordsB) )
         return line1 + '\n' + line2
 
     def match(self): 
