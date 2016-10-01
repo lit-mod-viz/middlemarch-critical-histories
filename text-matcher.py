@@ -146,7 +146,7 @@ def checkLog(logfile, textpair):
     logging.debug('Looking in the log for textpair:' % textpair)
     if not os.path.isfile(logfile): 
         logging.debug('No log file found.')
-        return False
+        return None
 
     with open(logfile, newline='') as f:
         reader = csv.reader(f)
@@ -154,6 +154,17 @@ def checkLog(logfile, textpair):
             pairs.append([row[0], row[1]])
     logging.debug('Pairs already in log: %s' % pairs)
     return textpair in pairs
+
+def createLog(logfile, columnLabels): 
+    """ 
+    Creates a log file and sets up headers so that it can be easily read 
+    as a CSV later. 
+    """
+    header = ','.join(columnLabels) + '\n'
+    with open(logfile, 'w') as f: 
+        f.write(header) 
+        f.close
+
 
 @click.command()
 @click.argument('text1')
@@ -189,6 +200,15 @@ def cli(text1, text2, threshold, ngrams, logfile, verbose):
 
         # Make sure we haven't already done this pair. 
         inLog = checkLog(logfile, [pair[0], pair[1]])
+
+        # Set up columns and their labels. 
+        columnLabels = ['Text A', 'Text B', 'Threshold', 'N-Grams', 'Num Matches', 'Locations in A', 'Locations in B']
+
+        if inLog is None: 
+        # This means that there isn't a log file. Let's set one up.
+            logging.debug('No log file found. Setting one up.')
+            createLog(logfile, columnLabels)
+            
         if inLog: 
             logging.debug('This pair is already in the log. Skipping.')
             continue
