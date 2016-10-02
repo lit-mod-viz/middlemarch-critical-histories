@@ -62,7 +62,8 @@ class Matcher:
         self.textAgrams = self.textA.ngrams(ngramSize)
         self.textBgrams = self.textB.ngrams(ngramSize)
 
-        self.locations = [] 
+        self.locationsA = [] 
+        self.locationsB = [] 
 
     def getContext(self, text, start, length, context): 
         match = self.getTokensText(text, start, length)
@@ -92,8 +93,8 @@ class Matcher:
         wordsB = self.getContext(textB, match.b, match.size, context)
         spansA = self.getLocations(textA, match.a, match.size)
         spansB = self.getLocations(textB, match.b, match.size)
-        self.locationsA = spansA
-        self.locationsB = spansB
+        self.locationsA.append(spansA)
+        self.locationsB.append(spansB)
         line1 = ('%s: %s %s' % (colored(textA.filename, 'green'), spansA, wordsA) )
         line2 = ('%s: %s %s' % (colored(textB.filename, 'green'), spansB, wordsB) )
         return line1 + '\n' + line2
@@ -152,7 +153,7 @@ def checkLog(logfile, textpair):
         reader = csv.reader(f)
         for row in reader:
             pairs.append([row[0], row[1]])
-    logging.debug('Pairs already in log: %s' % pairs)
+    # logging.debug('Pairs already in log: %s' % pairs)
     return textpair in pairs
 
 def createLog(logfile, columnLabels): 
