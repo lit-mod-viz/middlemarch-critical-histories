@@ -24,7 +24,7 @@ We don't yet have solutions to these problems, and part of the interest in the p
 
 Although we hope to learn and adapt our methods as our research progresses, we have decided on the following initial parameters:
 
-Primary text: _Middlemarch_
-Type of secondary texts: articles only (most easily available in digital form)
-Chronological range: 1960-2009 (institutional contexts for literary scholarship relatively stable - debatable, certainly, but at least more stable than e.g. nineteenth century)
-Source: JSTOR (large collection, many different journals, easily downloadable)
+- Primary text: _Middlemarch_
+- Type of secondary texts: articles only (most easily available in digital form)
+- Chronological range: 1960-2009 (institutional contexts for literary scholarship relatively stable - debatable, certainly, but at least more stable than e.g. nineteenth century)
+- Source: JSTOR (large collection, many different journals, easily downloadable)
