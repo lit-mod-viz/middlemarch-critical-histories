@@ -28,3 +28,9 @@ Although we hope to learn and adapt our methods as our research progresses, we h
 - Type of secondary texts: articles only (most easily available in digital form)
 - Chronological range: 1960-2009 (institutional contexts for literary scholarship relatively stable - debatable, certainly, but at least more stable than e.g. nineteenth century)
 - Source: JSTOR (large collection, many different journals, easily downloadable)
+
+# Experiment 0: Preliminary Results
+
+ - See [results of Experiment 0 here](https://github.com/xpmethod/middlemarch-critical-histories/blob/master/e0a.ipynb), complete with a heat map of quoted segments by decade. 
+
+ - [Explore the annotated _Middlemarch_ here.](https://htmlpreview.github.io/?https://raw.githubusercontent.com/xpmethod/middlemarch-critical-histories/master/annotated.html)
