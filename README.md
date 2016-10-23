@@ -33,4 +33,4 @@ Although we hope to learn and adapt our methods as our research progresses, we h
 
  - See [results of Experiment 0 here](https://github.com/xpmethod/middlemarch-critical-histories/blob/master/e0a.ipynb), complete with a heat map of quoted segments by decade. 
 
- - [Explore the annotated _Middlemarch_ here.](https://htmlpreview.github.io/?https://raw.githubusercontent.com/xpmethod/middlemarch-critical-histories/master/annotated.html)
+ - [Explore the annotated _Middlemarch_ here.](http://xpmethod.plaintext.in/middlemarch-critical-histories/annotated.html)
