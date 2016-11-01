@@ -2,7 +2,8 @@ middlemarch-abstract.pdf : middlemarch-abstract.md
 	pandoc -o $@ $< \
 		--latex-engine=xelatex \
 		--filter pandoc-crossref \
-		--filter pandoc-citeproc
+		--filter pandoc-citeproc \
+		--variable urlcolor=blue
 	gvfs-open $@ &
 
 middlemarch-abstract.md: ../../middlemarch-critical-histories.wiki/DH2017-Abstract.md images
