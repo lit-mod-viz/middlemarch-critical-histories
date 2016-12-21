@@ -29,6 +29,11 @@ Although we hope to learn and adapt our methods as our research progresses, we h
 - Chronological range: 1960-2009 (institutional contexts for literary scholarship relatively stable - debatable, certainly, but at least more stable than e.g. nineteenth century)
 - Source: JSTOR (large collection, many different journals, easily downloadable)
 
+#Contents
+
+ - /e0 - Experiment 0, the preliminary experiment using ~450 critical texts scraped from JSTOR semi-manually
+ - /e1 - Experiment 1, the main experiment using ~6,500 texts
+
 # Experiment 0: Preliminary Results
 
  - See [results of Experiment 0 here](https://github.com/xpmethod/middlemarch-critical-histories/blob/master/e0a.ipynb), complete with a heat map of quoted segments by decade. 
