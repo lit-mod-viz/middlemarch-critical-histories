@@ -31,8 +31,11 @@ Although we hope to learn and adapt our methods as our research progresses, we h
 
 #Contents
 
+ - /anthologies - preliminary work with anthologies of George Eliot quotations, to be compared with the critical quotations in e0 and e1
+ - /dh2017-submission - an abstract submitted for the conference Digital Humanities 2017
  - /e0 - Experiment 0, the preliminary experiment using ~450 critical texts scraped from JSTOR semi-manually
  - /e1 - Experiment 1, the main experiment using ~6,500 texts
+ - /paper - the full-length paper discussing our findings. Currently a work in progress. 
 
 # Experiment 0: Preliminary Results
 
