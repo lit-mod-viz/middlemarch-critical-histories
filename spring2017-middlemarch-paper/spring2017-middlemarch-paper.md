@@ -1,6 +1,6 @@
-"The very fact of frequency": what we can learn from 2,000 scholarly articles on *Middlemarch*
+#"The very fact of frequency": what we can learn from 2,000 scholarly articles on *Middlemarch*
 
-# Introduction
+## Introduction
 
 Decades of research in linguistics has shown that when a large enough collection of texts (a corpus) is analysed, patterns emerge which aren't accessible at a smaller scale. In some cases these patterns confirm our intuitions and expectations, in other cases they are entirely unexpected or counter-intuitive. This study began with a simple question: what patterns might be revealed by analysing a large corpus of literary scholarship? Would it provide empirical confirmation of our own sense of the trends in literary scholarship, or would it reveal dynamics shaping the field and its practices of which scholars aren't consciously aware?
 
