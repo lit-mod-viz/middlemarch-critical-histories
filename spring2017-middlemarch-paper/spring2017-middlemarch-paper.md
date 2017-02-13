@@ -11,7 +11,7 @@ figPrefix: Figure
 
 # Introduction
 
-Decades of research in linguistics has shown that when a large enough collection of texts (a corpus) is analysed, patterns emerge which aren't accessible at a smaller scale. In some cases these patterns confirm our intuitions and expectations, in other cases they are entirely unexpected or counter-intuitive. This study began with a simple question: what patterns might be revealed by analysing a large corpus of literary scholarship? Would it provide empirical confirmation of our own sense of the trends in literary scholarship, or would it reveal dynamics shaping the field and its practices of which scholars aren't consciously aware?
+Decades of research in linguistics have shown that when a large enough collection of texts (a corpus) is analysed, patterns emerge which aren't accessible at a smaller scale. In some cases these patterns confirm our intuitions and expectations, in other cases they are entirely unexpected or counter-intuitive. This study began with a simple question: what patterns might be revealed by analysing a large corpus of literary scholarship? Would it provide empirical confirmation of our own sense of the trends in literary scholarship, or would it reveal dynamics shaping the field and its practices of which scholars aren't consciously aware?
 
 Literary texts are one of the most important raw materials of literary scholarship, and as such their deployment within a scholarly article by means of quotation struck us as a rewarding place to search for patterns. This approach has the virtue of being computationally relatively straightforward, broadly applicable across this genre of writing and offering results which directly reflect (in aggregate) the familiar activities of literary scholarship. We began this project curious to see what citation practices would look like at a scale beyond that which mere mortals can perceive, and approached the results not with hypotheses but with questions. Which parts of a text have been cited most frequently? Which parts haven't? Have these patterns changed over time? Can we detect a life-cycle for certain passages which rise and fall in popularity over time? Can this be connected to major movements within the field (e.g. feminist criticism, deconstruction) or even to a specific critic?
 
@@ -36,4 +36,18 @@ The text of the articles themselves also produced problems. Much (all?) of JSTOR
 Beyond these questions of quality control, there's also the issue of the representativeness of this corpus. Can this collection of articles from JSTOR fairly be said to represent the field of literary scholarship as a whole? We remain agnostic on the matter, and offer the results here as a first attempt using the most readily available resources. Two factors offer a degree of support here. Firstly, in corpus research, size matters. 2,000 articles from nnn journals gives a large spread that should in theory prevent the quirks of any one article, scholar or journal from appearing to be a general pattern. Secondly, the results from an initial test we carried out on around 400 articles gave very similar results to the full corpus. If these patterns appear in a much smaller subsection of the corpus, we might also expect they will scale up to larger corpora. This is all speculative, however, and only further research on larger corpora will confirm or revise these results. At any rate, it's by no means trivial to say that these results *are* representative of JSTOR's library, since this is in itself one of the major resources for literary scholars working today.
 
 ## *Middlematch*: the matching algorithm
+
+Describe system first, then parameters
+
+System:
+pre-processing - remove punctuation, hyphen healing, stemmer, irregular verbs?
+overlapping ngrams
+fuzzy matching at edges
+
+
+
+
+
+
+
 
