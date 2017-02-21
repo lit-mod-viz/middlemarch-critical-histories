@@ -8,21 +8,21 @@ New: aiming for more general journals, (eg ELH, NLH, PMLA)
 - 2) Methodology 
 	- creating the corpus
 	- the text-matcher algorithm 
-- 3) Discussion: Two separate sections on our related corpora
-	- parts of the novel 
-		- 1st half vs. 2nd half
-			- Meta-discussion about visualization choices & binning, describing visualization choices for non-digital humanist readers
-		- Which books (of the 8 books) are most /least quoted
-		- Which chapters are most/least quoted
-			- Chapter 20 
-		- Which paragraphs (within Chapter 20) are most/least quoted
-			- Annotated edition? Jokey footnote
+- 3) Discussion: parts of the novel 
+	- 1st half vs. 2nd half
+		- Meta-discussion about visualization choices & binning, describing visualization choices for non-digital humanist readers
+	- Which books (of the 8 books) are most /least quoted
+	- Which chapters are most/least quoted
+		- Chapter 20 
+	- Which paragraphs (within Chapter 20) are most/least quoted
+		- Annotated edition? Jokey footnote
 	- Diachronic
 		- The rise and fall of chapter 15, this way of talking about the value of a diachronic analysis 
 			- Compare diachronic view with a synchronic heat map  
-	-  Distinctive keywords (lemmatized)
+- 4) Discussion: insights into the field
+	- Distinctive keywords (lemmatized)
 	- Specialist journals vs. nonspecialist
-- 4) Extension to other critical traditions
+- 5) Extension to other critical traditions
 	- Sociology of literature
 		- Thinking about the received practices of citation (Bourdieu)
 		- What are the practices of scholarly citation (eg tacit knowledge about what is already quoted; what are "canonical" quotations, proportion of frequently cited to relatively infrequently cited quotations) 
