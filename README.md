@@ -29,16 +29,8 @@ Although we hope to learn and adapt our methods as our research progresses, we h
 - Chronological range: 1960-2009 (institutional contexts for literary scholarship relatively stable - debatable, certainly, but at least more stable than e.g. nineteenth century)
 - Source: JSTOR (large collection, many different journals, easily downloadable)
 
-#Contents
 
- - /anthologies - preliminary work with anthologies of George Eliot quotations, to be compared with the critical quotations in e0 and e1
- - /dh2017-submission - an abstract submitted for the conference Digital Humanities 2017
- - /e0 - Experiment 0, the preliminary experiment using ~450 critical texts scraped from JSTOR semi-manually
- - /e1 - Experiment 1, the main experiment using ~6,500 texts
- - /paper - the full-length paper discussing our findings. Currently a work in progress. 
+# Results
 
-# Experiment 0: Preliminary Results
-
- - See [results of Experiment 0 here](https://github.com/xpmethod/middlemarch-critical-histories/blob/master/e0a.ipynb), complete with a heat map of quoted segments by decade. 
-
+ - See [some results of our analysis here](https://github.com/lit-mod-viz/middlemarch-critical-histories/blob/master/notebooks/jstor-analysis.ipynb)
  - [Explore the annotated _Middlemarch_ here.](http://lit-mod-viz.github.io/annotated.html)
