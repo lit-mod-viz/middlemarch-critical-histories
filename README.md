@@ -33,4 +33,4 @@ Although we hope to learn and adapt our methods as our research progresses, we h
 # Results
 
  - See [some results of our analysis here](https://github.com/lit-mod-viz/middlemarch-critical-histories/blob/master/notebooks/jstor-analysis.ipynb)
- - [Explore the annotated _Middlemarch_ here.](http://lit-mod-viz.github.io/annotated.html)
+ - [Explore the annotated _Middlemarch_ here.](http://lit-mod-viz.github.io/middlemarch-critical-histories/annotated.html)
