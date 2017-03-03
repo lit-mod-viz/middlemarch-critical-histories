@@ -6,28 +6,56 @@ New: aiming for more general journals, (eg ELH, NLH, PMLA)
 - 1) Introduction: Research question
 	- *Middlemarch* on aphorism, novel selection
 - 2) Methodology 
-	- creating the corpus
-	- the text-matcher algorithm 
+	- a) creating the corpus
+	- b) the text-matcher algorithm 
 - 3) Discussion: parts of the novel 
-	- 1st half vs. 2nd half
+	- a) 1st half vs. 2nd half; most/least quoted of 8 Books
 		- Meta-discussion about visualization choices & binning, describing visualization choices for non-digital humanist readers
-	- Which books (of the 8 books) are most /least quoted
-	- Which chapters are most/least quoted
+	- b) Which chapters are most/least quoted
 		- Chapter 20 
-	- Which paragraphs (within Chapter 20) are most/least quoted
+	- c) Which paragraphs (within Chapter 20) are most/least quoted
 		- Annotated edition? Jokey footnote
-	- Diachronic
+	- d) Diachronic
 		- The rise and fall of chapter 15, this way of talking about the value of a diachronic analysis 
 			- Compare diachronic view with a synchronic heat map  
 - 4) Discussion: insights into the field
-	- Distinctive keywords (lemmatized)
-	- Specialist journals vs. nonspecialist
+	- a) Distinctive keywords (lemmatized)
+	- b) Specialist journals vs. nonspecialist
 - 5) Extension to other critical traditions
 	- Sociology of literature
 		- Thinking about the received practices of citation (Bourdieu)
 		- What are the practices of scholarly citation (eg tacit knowledge about what is already quoted; what are "canonical" quotations, proportion of frequently cited to relatively infrequently cited quotations) 
 		- Journals breakdown of synchronic analysis? 
 	- Theories of reading
+
+## Sources and graphs ##
+
+2a) Stats about corpus: total no of items, no of actual articles, nos broken down per year, average+range of words per item
+
+2b) Overview of matches: total no matches+words, average+range of matches+words per article, average+range of words per match
+
+3a-b) matches+word counts per chapter, raw data and normalised for chapter length
+
+- bar chart of 8 Books
+- heat map of chapters (normalised for length)
+
+3c) word-by-word frequencies for Ch20 plus data for where paragraph breaks occur
+
+- histogram of chapter 20 frequencies (per paragraph? per word?)
+- screenshot of text browser
+
+3d) diachronic breakdown of data from 3a; specific quotes and article sources for Ch15
+
+- diachronic heat map of chapters (normalised for length)
+
+4a) TBC
+
+- no graph?
+
+4b) TBC
+
+- graph TBC
+
 
 ## To Do: ##
 
@@ -46,6 +74,8 @@ New: aiming for more general journals, (eg ELH, NLH, PMLA)
 		- Decide on visualization (split bar chart or current visualization) 
 - Questions:
 	- Are keywords weighted by frequency or not? if not, then, these need to be weighted by frequency
+
+
 
 ## Cut Sections ##
 
