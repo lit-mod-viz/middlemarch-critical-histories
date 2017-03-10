@@ -22,13 +22,26 @@ New: aiming for more general journals, (eg ELH, NLH, PMLA)
 	- a) Distinctive keywords (lemmatized)
 	- b) Specialist journals vs. nonspecialist
 - 5) Extension to other critical traditions
-	- Sociology of literature
+	- a) Sociology of literature
 		- Thinking about the received practices of citation (Bourdieu)
 		- What are the practices of scholarly citation (eg tacit knowledge about what is already quoted; what are "canonical" quotations, proportion of frequently cited to relatively infrequently cited quotations) 
 		- Journals breakdown of synchronic analysis? 
-	- Theories of reception
+	- b) Theories of reception
 	        - Jauss and Iser
 		- Compagnon
+
+# Rough word counts
+
+1)     500
+2a)    500
+b)     500
+3)     2000
+4)     2000
+5a)    1000
+b)     1000
+conc:  500
+
+TOTAL: 8000 words
 
 ## Sources and graphs ##
 
