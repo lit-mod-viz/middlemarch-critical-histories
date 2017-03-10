@@ -26,7 +26,9 @@ New: aiming for more general journals, (eg ELH, NLH, PMLA)
 		- Thinking about the received practices of citation (Bourdieu)
 		- What are the practices of scholarly citation (eg tacit knowledge about what is already quoted; what are "canonical" quotations, proportion of frequently cited to relatively infrequently cited quotations) 
 		- Journals breakdown of synchronic analysis? 
-	- Theories of reading
+	- Theories of reception
+	        - Jauss and Iser
+		- Compagnon
 
 ## Sources and graphs ##
 
