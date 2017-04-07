@@ -30,18 +30,18 @@ To return to literary studies, while our own initial project is focusing on acad
 
 ## References
 
-**Bär, D., Zesch, T., Gurevych, I.,** (2012). "Text Reuse Detection Using a Composition of Text Similarity Measures." *Proceedings of COLING 2012* 1, 167–184.
+**Bär, D., Zesch, T., Gurevych, I.,** (2012). "Text Reuse Detection Using a Composition of Text Similarity Measures." *Proceedings of COLING 2012* 1, pp. 167–184.
 
-**Brožek, J.** (1980). “The Echoes of Wundt’s Work in the United States, 1887–1977: A Quantitative Citation Analysis.” *Psychological Research*, vol. 42, no. 1–2, pp. 103–107.
+**Brožek, J.** (1980). “The Echoes of Wundt’s Work in the United States, 1887–1977: A Quantitative Citation Analysis.” *Psychological Research*, 42(1–2): 103–107.
 
-**Büchler, M., Burns, P.R., Müller, M., Franzini, E., Franzini, G.,** (2014). "Towards a Historical Text Re-use Detection." In Biemann, C., Mehler, A. (Eds.), T*ext Mining, Theory and Applications of Natural Language Processing*. Springer International Publishing, pp. 221–238. 
+**Büchler, M., Burns, P.R., Müller, M., Franzini, E., Franzini, G.,** (2014). "Towards a Historical Text Re-use Detection." In Biemann, C., Mehler, A. (eds.), *Text Mining, Theory and Applications of Natural Language Processing*. Springer International Publishing, pp. 221–238. 
 
-**Ganascia, J.-G., Glaudes, P., Del Lungo, A.,** (2014). "Automatic detection of reuses and citations in literary texts." *Lit Linguist Computing* 29, 412–421. 
+**Ganascia, J.-G., Glaudes, P., Del Lungo, A.,** (2014). "Automatic detection of reuses and citations in literary texts." *Lit Linguist Computing* 29: 412–421. 
 
-**Goldstone, A., Underwood, T.**, (2014). "The Quiet Transformations of Literary Studies: What Thirteen Thousand Scholars Could Tell Us." *New Literary History* 45, 359–384.
+**Goldstone, A., Underwood, T.**, (2014). "The Quiet Transformations of Literary Studies: What Thirteen Thousand Scholars Could Tell Us." *New Literary History* 45: 359–384.
 
-**Smith, D.A., Cordell, R., Dillon, E.M.,** (2013). Infectious texts: Modeling text reuse in nineteenth-century newspapers, in: *2013 IEEE International Conference on Big Data. Presented at the 2013* IEEE International Conference on Big Data, pp. 86–94. 
+**Smith, D.A., Cordell, R., Dillon, E.M.,** (2013). "Infectious texts: Modeling text reuse in nineteenth-century newspapers." In *Proceedings of the 2013 IEEE International Conference on Big Data*. Santa Clara, CA: IEEE, pp. 86–94. 
 
-**Smith, D.A., Cordell, R., Dillon, E.M., Stramp, N., Wilkerson, J.,** (2014). ""Detecting and Modeling Local Text Reuse." In *Proceedings of the 14th ACM/IEEE-CS Joint Conference on Digital Libraries*, JCDL ’14. IEEE Press, Piscataway, NJ, USA, pp. 183–192.
+**Smith, D.A., Cordell, R., Dillon, E.M., Stramp, N., Wilkerson, J.,** (2014). "Detecting and Modeling Local Text Reuse." In *Proceedings of the 14th ACM/IEEE-CS Joint Conference on Digital Libraries*. Piscataway, NJ: JCDL ’14 and IEEE Press, pp. 183–192.
 
-**Tenen, D.** (2017). "Digital Displacement." In *Futures of Comparative Literature*, Ursula K. Heise, Dudley Andrew, Alexander Beecroft, Jessica Berman, David Damrosch, Guillermina De Ferrari, César Domínguez, Barbara Harlow, and Eric Hayot  (eds.) London: Routledge.
+**Tenen, D.** (forthcoming). "Digital Displacement." In Ursula K. Heise, Dudley Andrew, Alexander Beecroft, Jessica Berman, David Damrosch, Guillermina De Ferrari, César Domínguez, Barbara Harlow, and Eric Hayot (eds.), *Futures of Comparative Literature*,  London: Routledge.
