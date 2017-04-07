@@ -14,11 +14,9 @@ Our project uses text-reuse technology to trace changes in when, how, and what s
 
 ![Citation Frequency Heat Map for _Middlemarch_, by Decade](images/heatmap.png)
 
-Given that our methodology involves aggregating large amounts of data, our project examines which patterns emerge at different scales of aggregation. At the largest scale, Figure 1 shows the frequency of citations across the whole of _Middlemarch_ as a heat map segmented by decade, with yellow signifying the highest citation and black, no citations. The novel is broken into its chapters along the horizontal axis, and each segment is colored according to the number of times its text has appeared in the scholarly literature. 
+Given that our methodology involves aggregating large amounts of data, our project examines which patterns emerge at different scales of aggregation. At the largest scale, Figure 1 shows the frequency of citations across the whole of _Middlemarch_ as a heat map segmented by decade, with yellow signifying the highest citation and black, no citations. The novel is broken into its chapters along the horizontal axis, and each segment is colored according to the number of times its text has appeared in the scholarly literature. Segments showing high frequency are relative to that decade.
 
-Viewed chronologically, we see that scholarly interest in certain sections---as expressed in numbers of quotations---appears to shift over time. In the 1950s, most of the scholarly citation was concentrated on the end of the novel, but this interest has shifted to the beginning by the present day. 
-
-Viewed chronologically, we see that scholarly interest in certain sections---as expressed in numbers of quotations---appears to shift over time. In the 1970s, most of the scholarly citation was concentrated at the start of the novel, but in the 1980s this shifted to the end, while in more recent decades it has been distributed more evenly, though still focused on the first half.
+Viewed chronologically, we see that scholarly interest in certain sections---as expressed in numbers of quotations---appears to shift over time. Although much less data is available from the 1950s and 1960s, we can nonetheless see that relative to that decade, scholarly citation appears concentrated on the end of the novel. In the 1960s and 1970s, most of the scholarly citation was concentrated at the start of the novel, but in the 1980s this shifted to the end, while in more recent decades it has been distributed more evenly, though still focused on the first half.
 
 ![Citation Frequency Text Browser for _Middlemarch_](images/annotated2.png)
 
