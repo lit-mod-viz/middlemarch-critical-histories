@@ -24,9 +24,7 @@ Figure 2 shows a finer grained analysis, no longer segmented by decade, displayi
 
 Applying text reuse detection to study a work's afterlife in quotations has wide-ranging application across the humanities. Firstly, this methodology can be used in any discipline to investigate that discipline’s theoretical history. As with the 1980 study of Wundt's influence on the field of psychology (Brožek,  1980), our methodology could rapidly and easily produce similar investigations for the influence of Saussure in linguistics, Bourdieu in sociology, Mead in anthropology, Beauvoir in feminist theory, and so on. This analysis would be much more fine-grained, registering not only the frequency of *works* cited but also specific sections, passages and even key phrases within them.
 
-[Since part of the contribution of this project is the fact that we're studying critical reception through ACADEMIC citations, I wonder if it might be with worth cutting the last paragraph below, for the purposes of the abstract.]
 
-To return to literary studies, while our own initial project is focusing on academic literary criticism of the post-war period, the methodology could equally be applied to earlier aspects of literary reception. We are interested to examine whether patterns of citation change measurably since English literature is established as a discipline in the late nineteenth century. Going even further back, our methodology could equally be applied to quotations of literary works in non-academic formats, whether non-fiction (newspapers, journals, essays) or other literary works (citations of Shakespeare in Romantic poetry, say).
 
 ## References
 
