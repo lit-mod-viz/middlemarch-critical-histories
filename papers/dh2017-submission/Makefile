@@ -1,3 +1,11 @@
+odt: 
+	pandoc -o middlemarch-abstract.odt middlemarch-abstract.md \
+		--latex-engine=xelatex \
+		--filter pandoc-crossref \
+		--filter pandoc-citeproc \
+		--variable urlcolor=blue
+	gvfs-open middlemarch-abstract.odt
+
 middlemarch-abstract.pdf : middlemarch-abstract.md
 	pandoc -o $@ $< \
 		--latex-engine=xelatex \
