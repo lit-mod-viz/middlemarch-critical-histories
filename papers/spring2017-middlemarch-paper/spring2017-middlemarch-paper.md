@@ -9,7 +9,7 @@ figureTitle: Figure
 figPrefix: Figure
 ---
 
-# Introduction
+# 1. Introduction
 
 Decades of research in linguistics have shown that when a large enough collection of texts (a corpus) is analysed, patterns emerge which aren't detectable at a smaller scale. In some cases these patterns confirm our intuitions and expectations, in other cases they are entirely unexpected or counter-intuitive. This study began with a simple question: what patterns might be revealed by analysing a large corpus of literary scholarship? Would it provide empirical confirmation of our own sense of the trends in literary studies, or would it reveal dynamics shaping the field and its practices of which scholars aren't consciously aware?
 
@@ -23,7 +23,7 @@ Having mentioned Moretti, we should briefly position our project in relation to 
 
 The first section of this article offers an account of our methodology, describing the construction of our corpus and the algorithm we developed to detect quotations. The next two sections present our results and discuss possible explanations for some of the most striking patterns we found. First, we examine the uneven attention given to the novel's parts, beginning with the most and least quoted of the eight "Books", before focusing in on chapters, paragraphs and finally sentences, before considering the shifts in critical emphasis over the last 50 years. Second, we use a ranking of the most frequently-quoted words and a comparison between specialist and generalist journals to gain insights into the dynamics of literary studies as a field. Finally, the article concludes by reflecting on the implications of this research for literary studies more broadly, in particular the contribution it makes to the sociology of scholarly activity and the implications it has for reception theory.
 
-# Methodology
+# 2. Methodology
 
 ## Creating the corpora
 
@@ -43,9 +43,22 @@ The matching algorithm develops and makes use of existing research in the field 
 
 The algorithm begins by pre-processing both corpora (*Middlemarch* and the criticism), removing punctuation and hyphens which break up words. The Lancaster stemmer is applied, which reduces words with multiple endings to a single "stem", e.g. [......]. This deals with both British/American spelling variants and many cases where scholars adapt the syntactic category of a word in quotation to fit their own sentence. [Do we do anything about irregular verbs?] We experimented with removing so-called "stop words", highly-frequent words such as "the" and "with", but decided against this on the basis that such small words are by no means trivial to literary scholars, and so shouldn't be excluded on principle. We found confirmation for this stance in finding an article which quoted and discussed the phrase "you and me", entirely consisting of stop words.
 
-Next the algorithm searches for overlapping sequences of n-grams (phrases consisting of n words) in both corpora. Based on previous work in text reuse detection and our own process of trial and error, we settled on searching for three overlapping trigrams (three-word sequences), meaning that the shortest possible match we detect is a five-word sequence. [Give example - I think this is a little counterintuitive to non techie people.] Where both corpora contained the same sequence of three overlapping trigrams this was counted as a match. Manual examination of results for various parameters suggested that this configuration provided the best balance of accuracy without detecting false positives. Because we found that the algorithm sometimes struggled to capture the entirety of a quoted passage, we added a final phase in which the algorithm examines the words immediately before and after every match: if a word either side is close enough [by what measure? Levenstein distance of n?] then it's added to the match and the process is repeated until the match is maximally long.
+Next the algorithm searches for overlapping sequences of n-grams (phrases consisting of n words) in both corpora. Based on previous work in text reuse detection and our own process of trial and error, we settled on searching for three overlapping trigrams (three-word sequences), meaning that the shortest possible match we detect is a five-word sequence. [Give example - I think this is a little counterintuitive to non techie people.] Where both corpora contained the same sequence of three overlapping trigrams this was counted as a match. Manual examination of results for various parameters suggested that this configuration provided the best balance of accuracy without detecting false positives. Because we found that the algorithm sometimes struggled to capture the entirety of a quoted passage, we added a final phase in which the algorithm examines the words immediately before and after every match: if a word either side is close enough [by what measure? Levenstein distance of n?] then it's added to the match and the process is repeated until the match is maximally long. To further improve the quality of the matches, a subsequent algorithm compared all the matches within an article, and merged them if they were [exactly? almost?] contiguous: the aim here was to join a single quotation split across two pages, although it would also merge two separate quotations which happened to be contiguous portions of the text.
 
-# *Middlemarch* in parts: the distribution of quotations
+# 3. *Middlemarch* in parts: the distribution of quotations
+
+As said before, despite the enormous amount of scholarly attention *Middlemarch* has received, its size means that large swathes of it have probably never been quoted. This raised for us two questions: is there a pattern to the distribution of quotations, and how (if at all) can we best explain these? As we will show, the question of patterns also requires reflection on the *scale* of analysis. In this section, we examine distributions in descending order of size, starting with a division into the first and second halves of the novel, then comparison between the eight "Books", then the 88 chapters and finally focusing in on paragraphs within a single chapter. In the final part of this section, we introduce a decade-by-decade breakdown of these patterns at the chapter level, in order to examine trends and changes over time.
+
+But first a few words on our results. Of the ..... articles in the corpus, only ..... yielded a single match. In total there were ....... matches, which gives an average of ...... among the articles that produced any matches. Throughout our discussion, it will be important to distinguish clearly between two measures of quantity: the number of quotations (i.e. matches) and the number of words quoted. While the minimum length of quotation our algorithm detects is five words, the range is from five to .......... . These two measures sometimes produce different distributions, and in these cases we state both, since we don't want to adjudicate on the informative value of each.
+
+At the largest scale, the first half of the novel has received substantially more attention than the second half: ...... quotations are taken from the first half compared to ..... for the second half. In other words, the first half accounts for ...% of all quotations. [Difference for word counts?]. While we don't want to suggest that scholars are failing to make it all the way through, the latter parts of the novel certainly seem to have been less generative of discussion. Partly, such a tendency may simply be self-sustaining: if all other scholars have discussed and continue to discuss sections from earlier in the novel, any given scholar will be biased in that direction if they want to engage in those discussions (a point we treat more extensively in section 5 on the sociology of the discipline). An intriguing possibility, however, is that this privileging of the first half isn't unique to *Middlemarch*, or even just to long texts, but can be detected across scholarly writing on all kinds of texts. A project at Stanford has found this to be the case for articles in journals from the 1870s to 1920s [check?] quoting not only *Middlemarch* but some 150 [check] other texts. Important to note is that these were not *scholarly* journals, and that literary scholarship such as it was looked very different at that time, but the trend is certainly suggestive.
+
+Once we shift to the level of the novel's eight "Books", a more complex though not entirely unexpected picture emerges. Within the first half, we see that
+
+
+
+
+
 
 
 
