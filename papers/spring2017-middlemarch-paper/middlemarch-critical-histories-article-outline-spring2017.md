@@ -12,10 +12,12 @@ New: aiming for more general journals, (eg ELH, NLH, PMLA)
 	- a) 1st half vs. 2nd half; most/least quoted of 8 Books
 		- Meta-discussion about visualization choices & binning, describing visualization choices for non-digital humanist readers
 	- b) Which chapters are most/least quoted
+	        - discuss normalising by chapter length (only for word counts?)
 		- Chapter 20 
 	- c) Which paragraphs (within Chapter 20) are most/least quoted
 		- Annotated edition? Jokey footnote
 	- d) Diachronic
+	        - discuss normalising for number of articles/quotes per decade
 		- The rise and fall of chapter 15, this way of talking about the value of a diachronic analysis 
 			- Compare diachronic view with a synchronic heat map  
 - 4) Discussion: insights into the field
