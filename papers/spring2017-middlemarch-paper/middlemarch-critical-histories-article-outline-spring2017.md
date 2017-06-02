@@ -13,15 +13,19 @@ New: aiming for more general journals, (eg ELH, NLH, PMLA)
 		- Meta-discussion about visualization choices & binning, describing visualization choices for non-digital humanist readers
 	- b) Which chapters are most/least quoted
 	        - discuss normalising by chapter length (only for word counts?)
+		- Make a graph of the composite of ALL chapters (do the beginnings or endings of chapters get more attention)
 		- Chapter 20 
 	- c) Which paragraphs (within Chapter 20) are most/least quoted
 		- Annotated edition? Jokey footnote
+		- Point out that even within a very frequently cited chapter like chpater 20, it's really only paragraphs, and even sentences and parts of sentences within paragraphs that are being quoted. Most of chapter 20 looks like the rest of the novel, only a few paragraphs that are quoted
+		- Our theoretical intervention: the importance of quotation relying on PARTS of sentences
+		- Read the single paragraph in all 16 or so articles that quote "roar on the other side of silence" paragraph in Chapter 20.
 	- d) Diachronic
 	        - discuss normalising for number of articles/quotes per decade
 		- The rise and fall of chapter 15, this way of talking about the value of a diachronic analysis 
 			- Compare diachronic view with a synchronic heat map  
-- 4) Discussion: insights into the field
-	- a) Distinctive keywords (lemmatized)
+- 4) Discussion: Analysis of the language of quotations (synchronic analysis)
+	- a) The uses of abstraction: looking at distinctive keywords, specifically the frequency of abstract, generic nouns (not lemmatized and lemmatized). "life" vs "lives" as an interesting point of analysis
 	- b) Specialist journals vs. nonspecialist
 - 5) Extension to other critical traditions
 	- a) Sociology of literature
