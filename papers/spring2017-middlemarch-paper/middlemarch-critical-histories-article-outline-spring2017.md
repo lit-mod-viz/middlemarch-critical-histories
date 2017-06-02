@@ -39,14 +39,14 @@ New: aiming for more general journals, (eg ELH, NLH, PMLA)
 
 # Rough word counts
 
-- 1)     500
-- 2a)    500
-- b)     500
-- 3)     2000
-- 4)     2000
-- 5a)    1000
-- b)     1000
-- conc:  500
+- 1) 500  
+- 2a) 500  
+- b) 500  
+- 3) 2000  
+- 4) 2000  
+- 5a) 1000  
+- b)  1000  
+- conc: 500
 
 TOTAL: 8000 words
 
