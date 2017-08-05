@@ -4,44 +4,49 @@ Old: Overview for LLC papers: aiming for 9,000 words
 New: aiming for more general journals, (eg ELH, NLH, PMLA)
 
 - 1) Introduction: Research question
-	- *Middlemarch* on aphorism, novel selection
+	- *Middlemarch* on aphorism, novel selection: Milan 
 - 2) Methodology 
-	- a) creating the corpus
-	- b) the text-matcher algorithm 
+	- a) creating the corpus: Jonathan
+	- b) the text-matcher algorithm: Jonathan
 - 3) Discussion: parts of the novel 
-	- a) 1st half vs. 2nd half; most/least quoted of 8 Books
+	- a) 1st half vs. 2nd half; most/least quoted of 8 Books: Milan
 		- Meta-discussion about visualization choices & binning, describing visualization choices for non-digital humanist readers
-	- b) Which chapters are most/least quoted
+	- b) Which chapters are most/least quoted: Milan
 	        - discuss normalising by chapter length (only for word counts?)
+		- Make a graph of the composite of ALL chapters (do the beginnings or endings of chapters get more attention)
 		- Chapter 20 
-	- c) Which paragraphs (within Chapter 20) are most/least quoted
+	- c) Which paragraphs (within Chapter 20) are most/least quoted: Sierra
 		- Annotated edition? Jokey footnote
-	- d) Diachronic
+		- Point out that even within a very frequently cited chapter like chpater 20, it's really only paragraphs, and even sentences and parts of sentences within paragraphs that are being quoted. Most of chapter 20 looks like the rest of the novel, only a few paragraphs that are quoted
+		- Our theoretical intervention: the importance of quotation relying on PARTS of sentences
+		- Read the single paragraph in all 16 or so articles that quote "roar on the other side of silence" paragraph in Chapter 20.
+	- d) Diachronic: Jonathan? + Sierra outline
 	        - discuss normalising for number of articles/quotes per decade
 		- The rise and fall of chapter 15, this way of talking about the value of a diachronic analysis 
 			- Compare diachronic view with a synchronic heat map  
-- 4) Discussion: insights into the field
-	- a) Distinctive keywords (lemmatized)
-	- b) Specialist journals vs. nonspecialist
+- 4) Discussion: Analysis of the language of quotations (synchronic analysis)
+	- a) The uses of abstraction: looking at distinctive keywords, specifically the frequency of abstract, generic nouns (not lemmatized and lemmatized). "life" vs "lives" as an interesting point of analysis: Jonathan
+	- b) Specialist journals vs. nonspecialist: Sierra
 - 5) Extension to other critical traditions
-	- a) Sociology of literature
-		- Thinking about the received practices of citation (Bourdieu)
+	- a) Sociology of literature: Sierra
+		- Thinking about the received practices of citation (Bourdieu): 
 		- What are the practices of scholarly citation (eg tacit knowledge about what is already quoted; what are "canonical" quotations, proportion of frequently cited to relatively infrequently cited quotations) 
 		- Journals breakdown of synchronic analysis? 
 	- b) Theories of reception
-	        - Jauss and Iser
-		- Compagnon
+	        - Jauss and Iser: Milan
+		- Compagnon: Jonathan	
+- Conclusion
 
 # Rough word counts
 
-1)     500
-2a)    500
-b)     500
-3)     2000
-4)     2000
-5a)    1000
-b)     1000
-conc:  500
+- 1) 500  
+- 2a) 500  
+- b) 500  
+- 3) 2000  
+- 4) 2000  
+- 5a) 1000  
+- b)  1000  
+- conc: 500
 
 TOTAL: 8000 words
 
