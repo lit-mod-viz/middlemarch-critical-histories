@@ -112,9 +112,11 @@ We use text reuse detection to identify frequently cited passages from George El
 
 \begin{block}{Methods}
 
-We use a custom-built text reuse detection algorithm, text-matcher, that uses a techniques of approximate text matching in a two-pass process to identify similar passages between two texts. The first pass uses sequence matching to find a single matching trigram between the two texts. The algorithm then compares Levenstein  distances.
+We use a custom-built text reuse detection algorithm, text-matcher, that uses approximate text matching in a two-pass process to identify similar passages between texts. The first pass uses sequence matching to find a single matching trigram between the two texts. The algorithm then compares Levenshtein  distance ratios of boundary words.\\
 
-We then visualize these results at two different  scales: first, through a heat map visualizng citations at the book and chapter level and second, through a text browser, visualizing citations at the sentence and paragraph level.  We plot these results at several different scales, revealing several striking patterns discussed in the following sections.  
+\vspace{10mm}
+
+We then visualize these results at different scales. First, we analyze this according to narrative position within the novel, (a heat map visualizing citations at the book and chapter level; a text browser showing sentence and paragraph level citations). Second, we analyze using corpus metadata. Finally, we examine the linguistic properties of the quotations themselves. These results reveal several striking patterns discussed in the following sections.  
 
 
 \end{block}
