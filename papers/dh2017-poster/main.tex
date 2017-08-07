@@ -91,14 +91,15 @@
 %	OBJECTIVES
 %----------------------------------------------------------------------------------------
 
-\begin{alertblock}{Objectives}
+\begin{alertblock}{Research Questions}
 
-Lorem ipsum dolor sit amet, consectetur, nunc tellus pulvinar tortor, commodo eleifend risus arcu sed odio:
+We use text reuse detection to identify passages from George Eliot's novel \emph{Middlemarch} that are present in a corpus of over 4,000 critical articles obtained from JSTOR that contain the word ``Middlemarch''. We attempt to answer questions like: 
+
 \begin{itemize}
-\item Mollis dignissim, magna augue tincidunt dolor, interdum vestibulum urna
-\item Sed aliquet luctus lectus, eget aliquet leo ullamcorper consequat. Vivamus eros sem, iaculis ut euismod non, sollicitudin vel orci.
-\item Nascetur ridiculus mus.  
-\item Euismod non erat. Nam ultricies pellentesque nunc, ultrices volutpat nisl ultrices a.
+\item What passages of the novel are critics most interested in quoting?  
+\item How do these critical favorites change over time? 
+\item What are the linguistic properties of quotations, as compared with non-quotations?
+\item What makes us, as readers, choose to quote one passage instead of another?
 \end{itemize}
 
 \end{alertblock}
@@ -107,11 +108,9 @@ Lorem ipsum dolor sit amet, consectetur, nunc tellus pulvinar tortor, commodo el
 %	INTRODUCTION
 %----------------------------------------------------------------------------------------
 
-\begin{block}{Introduction}
+\begin{block}{Methods}
 
-Using 
-
-
+We use a custom-built text reuse detection algorithm, text-matcher, that uses a techniques of approximate text matching in a two-pass process to identify similar passages between two texts. The first pass uses sequence matching to find a single matching trigram between the two texts. The algorithm then compares Levenstein 
 
 
 \end{block}
@@ -182,72 +181,21 @@ Viewed diachronically, trends arise in critical quotations of the novel. Critics
 
 \begin{figure}
 \includegraphics[width=0.8\linewidth]{diachronic.png}
-\caption{Figure caption}
+\caption{Heat map of critical quotations of \emph{Middlemarch}, by chapter}
 \end{figure}
 
 \end{alertblock} 
 
 %----------------------------------------------------------------------------------------
 
-\begin{columns}[t,totalwidth=\twocolwid] % Split up the two columns wide column again
 
-\begin{column}{\onecolwid} % The first column within column 2 (column 2.1)
-
-%----------------------------------------------------------------------------------------
-%	MATHEMATICAL SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{block}{Mathematical Section}
-
-Nam quis odio enim, in molestie libero. Vivamus cursus mi at nulla elementum sollicitudin. Nam quis odio enim, in molestie libero. Vivamus cursus mi at nulla elementum sollicitudin.
-  
-\begin{equation}
-E = mc^{2}
-\label{eqn:Einstein}
-\end{equation}
-
-Nam quis odio enim, in molestie libero. Vivamus cursus mi at nulla elementum sollicitudin. Nam quis odio enim, in molestie libero. Vivamus cursus mi at nulla elementum sollicitudin.
-
-\begin{equation}
-\cos^3 \theta =\frac{1}{4}\cos\theta+\frac{3}{4}\cos 3\theta
-\label{eq:refname}
-\end{equation}
-
-Nam quis odio enim, in molestie libero. Vivamus cursus mi at nulla elementum sollicitudin. Nam quis odio enim, in molestie libero. Vivamus cursus mi at nulla elementum sollicitudin.
-
-\begin{equation}
-\kappa =\frac{\xi}{E_{\mathrm{max}}} %\mathbb{ZNR}
-\end{equation}
-
-\end{block}
-
-%----------------------------------------------------------------------------------------
-
-\end{column} % End of column 2.1
-
-\begin{column}{\onecolwid} % The second column within column 2 (column 2.2)
-
-%----------------------------------------------------------------------------------------
-%	RESULTS
-%----------------------------------------------------------------------------------------
-
-\begin{block}{Results}
+\begin{block}{From the Critical Heatmap Edition: Most Quoted Passage}
 
 \begin{figure}
-\includegraphics[width=0.8\linewidth]{placeholder.jpg}
+\includegraphics[width=0.7\linewidth]{most-quoted.png}
 \caption{Figure caption}
 \end{figure}
-
-Nunc tempus venenatis facilisis. Curabitur suscipit consequat eros non porttitor. Sed a massa dolor, id ornare enim:
-
-
-\end{block}
-
-%----------------------------------------------------------------------------------------
-
-\end{column} % End of column 2.2
-
-\end{columns} % End of the split of column 2
+\end{block} 
 
 \end{column} % End of the second column
 
