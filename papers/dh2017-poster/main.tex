@@ -63,7 +63,9 @@
 %	TITLE SECTION 
 %----------------------------------------------------------------------------------------
 
-\title{\emph{Middlemarch}: Critical Histories} % Poster title
+\title{Frequently Cited Passages Across Time: New
+Methods for Studying the Critical Reception of
+Texts} % Poster title
 
 \author{Jonathan Reeve, Sierra Eckert, Milan Terlunen} % Author(s)
 
@@ -93,13 +95,13 @@
 
 \begin{alertblock}{Research Questions}
 
-We use text reuse detection to identify passages from George Eliot's novel \emph{Middlemarch} that are present in a corpus of over 4,000 critical articles obtained from JSTOR that contain the word ``Middlemarch''. We attempt to answer questions like: 
+We use text reuse detection to identify passages from George Eliot's novel \emph{Middlemarch} that are present in a corpus of over 4,000 critical articles publisehd between 1960-200 obtained from JSTOR that contain the word ``Middlemarch''. We attempt to answer questions like: 
 
 \begin{itemize}
-\item What passages of the novel are critics most interested in quoting?  
-\item How do these critical favorites change over time? 
+\item What passages of the novel are critics most interested in quoting? How do these critical favorites change over time?  
+\item Can we detect a life-cycle for certain passages which rise and fall in popularity over time?
 \item What are the linguistic properties of quotations, as compared with non-quotations?
-\item What makes us, as readers, choose to quote one passage instead of another?
+\item What makes us, as readers, choose to quote one passage instead of another? Can this be connected to major movements within the field (e.g. feminist criticism, deconstruction), institutional structures (eg. particular journals) or even to a specific critic?
 \end{itemize}
 
 \end{alertblock}
@@ -110,10 +112,16 @@ We use text reuse detection to identify passages from George Eliot's novel \emph
 
 \begin{block}{Methods}
 
-We use a custom-built text reuse detection algorithm, text-matcher, that uses a techniques of approximate text matching in a two-pass process to identify similar passages between two texts. The first pass uses sequence matching to find a single matching trigram between the two texts. The algorithm then compares Levenstein 
+We use a custom-built text reuse detection algorithm, text-matcher, that uses a techniques of approximate text matching in a two-pass process to identify similar passages between two texts. The first pass uses sequence matching to find a single matching trigram between the two texts. The algorithm then compares Levenstein  distances.
+
+
+We then visualize these results at two different  scales: first, through a heat map visualizng citations at the book and chapter level and second, through a text browser, visualizing citations at the sentence and paragraph level.  We plot these results at several different scales, revealing several striking patterns discussed in the following sections.  
+
 
 
 \end{block}
+
+
 
 %------------------------------------------------
 
@@ -159,7 +167,7 @@ Literary critics writing in the specialist journal \emph{George Eliot / George H
 
 \begin{figure}
 \includegraphics[width=0.8\linewidth]{specialization.png}
-\caption{Difference in quotations between specialists and non-specialists.}
+\caption{Chapters quoted, specialists vs. non-specialists.}
 \end{figure}
 
 
@@ -175,7 +183,7 @@ Literary critics writing in the specialist journal \emph{George Eliot / George H
 %	IMPORTANT RESULT
 %----------------------------------------------------------------------------------------
 
-\begin{alertblock}{Shifts in Critical Attention over Time}
+\begin{alertblock}{\emph{Middlemarch}: Shifts in Critical Attention over Time}
 
 Viewed diachronically, trends arise in critical quotations of the novel. Critics' favorite chapters to excerpt shift from Chapter 81 in the 1950s to Chapter 20 in the 60s-70s, and to Chapter 15 in the 80s-90s. 
 
