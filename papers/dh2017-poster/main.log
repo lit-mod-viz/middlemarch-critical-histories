@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.2)  7 AUG 2017 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.2)  7 AUG 2017 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1153,40 +1153,40 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <25.92088> on input line 271.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <18.515> on input line 271.
-<synchronic-journals.png, id=15, 945.5325pt x 364.36125pt>
+<synchronic-journals.png, id=15, 1156.32pt x 433.62pt>
 File: synchronic-journals.png Graphic file (type png)
 <use synchronic-journals.png>
 Package pdftex.def Info: synchronic-journals.png  used on input line 271. on in
 put line 271.
-Package pdftex.def Info: Requested size: 610.54266pt x 235.27528pt on input lin
+Package pdftex.def Info: Requested size: 686.85323pt x 257.56711pt on input lin
 e 271.
-<specialization.png, id=17, 961.5925pt x 381.425pt>
+<specialization.png, id=17, 1156.32pt x 433.62pt>
 File: specialization.png Graphic file (type png)
 <use specialization.png>
 Package pdftex.def Info: specialization.png  used on input line 271. on input l
 ine 271.
-Package pdftex.def Info: Requested size: 610.54266pt x 242.1789pt on input line
- 271.
-<diachronic.png, id=18, 845.1575pt x 379.4175pt>
+Package pdftex.def Info: Requested size: 686.85323pt x 257.56711pt on input lin
+e 271.
+<diachronic.png, id=18, 3620.52625pt x 1719.42375pt>
 File: diachronic.png Graphic file (type png)
 <use diachronic.png>
 Package pdftex.def Info: diachronic.png  used on input line 271. on input line 
 271.
-Package pdftex.def Info: Requested size: 1253.55197pt x 562.77383pt on input li
+Package pdftex.def Info: Requested size: 1410.23102pt x 669.73302pt on input li
 ne 271.
-<most-quoted.png, id=19, 1393.205pt x 349.305pt>
+<most-quoted.png, id=19, 1287.81125pt x 264.99pt>
 File: most-quoted.png Graphic file (type png)
 <use most-quoted.png>
 Package pdftex.def Info: most-quoted.png  used on input line 271. on input line
  271.
-Package pdftex.def Info: Requested size: 1126.72424pt x 282.50377pt on input li
+Package pdftex.def Info: Requested size: 1126.72424pt x 231.85355pt on input li
 ne 271.
-<pos-tags.png, id=20, 957.5775pt x 379.4175pt>
+<pos-tags.png, id=20, 1156.32pt x 433.62pt>
 File: pos-tags.png Graphic file (type png)
 <use pos-tags.png>
 Package pdftex.def Info: pos-tags.png  used on input line 271. on input line 27
 1.
-Package pdftex.def Info: Requested size: 610.54266pt x 241.91164pt on input lin
+Package pdftex.def Info: Requested size: 686.85323pt x 257.56711pt on input lin
 e 271.
 
 Overfull \hbox (4.99402pt too wide) detected at line 271
@@ -1195,7 +1195,7 @@ Overfull \hbox (4.99402pt too wide) detected at line 271
  []
 
 
-Overfull \vbox (97.13506pt too high) detected at line 271
+Overfull \vbox (168.83223pt too high) detected at line 271
  []
 
 
@@ -1223,11 +1223,15 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  22348 strings out of 492990
  431503 string characters out of 6138689
- 561361 words of memory out of 5000000
+ 563940 words of memory out of 5000000
  25346 multiletter control sequences out of 15000+600000
  78439 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1238,7 +1242,7 @@ onts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12
 ist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/
 lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on main.pdf (1 page, 291507 bytes).
+Output written on main.pdf (1 page, 910190 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream

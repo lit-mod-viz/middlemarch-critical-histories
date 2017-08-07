@@ -110,7 +110,7 @@ We use text reuse detection to identify passages from George Eliot's novel \emph
 
 \begin{block}{Methods}
 
-We use a custom-built text reuse detection algorithm, text-matcher, that uses a techniques of approximate text matching in a two-pass process to identify similar passages between two texts. The first pass uses sequence matching to find a single matching trigram between the two texts. The algorithm then compares Levenstein 
+We use a custom-built text reuse detection algorithm, (``text-matcher'' on the Python package archive PyPi), that uses a techniques of approximate text matching in a two-pass process to identify similar passages between two texts. The first pass uses sequence matching to find a single matching trigram between the two texts. The algorithm then compares ratios of Levenstein distances of boundary words to determine whether the match can be expanded. Contiguous matches are then healed, and longest possible matches returned.
 
 
 \end{block}
@@ -137,7 +137,7 @@ We use a custom-built text reuse detection algorithm, text-matcher, that uses a 
 \begin{block}{Frequently Quoted Chapters}
 
 \begin{figure}
-\includegraphics[width=0.8\linewidth]{synchronic-journals.png}
+\includegraphics[width=0.9\linewidth]{synchronic-journals.png}
 \caption{Quoted words by chapter, subdivided by journal.}
 \end{figure}
 
@@ -158,7 +158,7 @@ We use a custom-built text reuse detection algorithm, text-matcher, that uses a 
 Literary critics writing in the specialist journal \emph{George Eliot / George Henry Lewes Studies} quote different passages from their counterparts publishing in more generalist journals. A positive score here indicates a chapter is quoted more by specialists:  
 
 \begin{figure}
-\includegraphics[width=0.8\linewidth]{specialization.png}
+\includegraphics[width=0.9\linewidth]{specialization.png}
 \caption{Difference in quotations between specialists and non-specialists.}
 \end{figure}
 
@@ -180,7 +180,7 @@ Literary critics writing in the specialist journal \emph{George Eliot / George H
 Viewed diachronically, trends arise in critical quotations of the novel. Critics' favorite chapters to excerpt shift from Chapter 81 in the 1950s to Chapter 20 in the 60s-70s, and to Chapter 15 in the 80s-90s. 
 
 \begin{figure}
-\includegraphics[width=0.8\linewidth]{diachronic.png}
+\includegraphics[width=0.9\linewidth]{diachronic.png}
 \caption{Heat map of critical quotations of \emph{Middlemarch}, by chapter}
 \end{figure}
 
@@ -212,7 +212,7 @@ Viewed diachronically, trends arise in critical quotations of the novel. Critics
 Figure 5 shows characteristic parts of speech of quotations (positive), and non-quotations (negative). 
 
 \begin{figure}
-\includegraphics[width=0.8\linewidth]{pos-tags.png}
+\includegraphics[width=0.9\linewidth]{pos-tags.png}
 \caption{Distinctive parts of speech of quotations}
 \end{figure}
 
