@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.30)  7 AUG 2017 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.30)  7 AUG 2017 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1200,14 +1200,14 @@ File: synchronic-journals.png Graphic file (type png)
 <use synchronic-journals.png>
 Package pdftex.def Info: synchronic-journals.png  used on input line 279. on in
 put line 279.
-Package pdftex.def Info: Requested size: 686.85323pt x 257.56711pt on input lin
+Package pdftex.def Info: Requested size: 725.01433pt x 271.87859pt on input lin
 e 279.
 <specialization.png, id=17, 1156.32pt x 433.62pt>
 File: specialization.png Graphic file (type png)
 <use specialization.png>
 Package pdftex.def Info: specialization.png  used on input line 279. on input l
 ine 279.
-Package pdftex.def Info: Requested size: 686.85323pt x 257.56711pt on input lin
+Package pdftex.def Info: Requested size: 725.01433pt x 271.87859pt on input lin
 e 279.
 <diachronic.png, id=18, 3464.945pt x 1556.81625pt>
 File: diachronic.png Graphic file (type png)
@@ -1228,7 +1228,7 @@ File: pos-tags.png Graphic file (type png)
 <use pos-tags.png>
 Package pdftex.def Info: pos-tags.png  used on input line 279. on input line 27
 9.
-Package pdftex.def Info: Requested size: 686.85323pt x 257.56711pt on input lin
+Package pdftex.def Info: Requested size: 725.01433pt x 271.87859pt on input lin
 e 279.
 
 Overfull \hbox (4.99402pt too wide) detected at line 279
@@ -1265,7 +1265,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  22365 strings out of 492990
  437003 string characters out of 6132636
- 572723 words of memory out of 5000000
+ 572861 words of memory out of 5000000
  25363 multiletter control sequences out of 15000+600000
  75646 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1277,7 +1277,7 @@ texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2017/texmf-dist
 pe1/public/lm/lmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
 lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss17.
 pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on main.pdf (1 page, 912199 bytes).
+Output written on main.pdf (1 page, 912390 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream

@@ -99,9 +99,9 @@ We use text reuse detection to identify frequently cited passages from George El
 
 \begin{itemize}
 \item What passages of the novel are critics most interested in quoting? How do these critical favorites change over time?  
-\item Can we detect a life-cycle for certain passages which rise and fall in popularity over time?
+\item Can we detect a life-cycle for certain passages which rise and fall in popularity over time? Can this be connected to major movements within the field (e.g. feminist criticism, deconstruction), to institutional structures (e.g. particular journals) or even to a specific critic?
 \item What are the linguistic properties of quotations, as compared with non-quotations?
-\item What makes us, as readers, choose to quote one passage instead of another? Can this be connected to major movements within the field (e.g. feminist criticism, deconstruction), institutional structures (eg. particular journals) or even to a specific critic?
+\item What makes us, as readers, choose to quote one passage instead of another? 
 \end{itemize}
 
 \end{alertblock}
@@ -116,7 +116,7 @@ We use a custom-built text reuse detection algorithm, text-matcher, that uses ap
 
 \vspace{10mm}
 
-We then visualize these results at different scales. First, we analyze this according to narrative position within the novel, (a heat map visualizing citations at the book and chapter level; a text browser showing sentence and paragraph level citations). Second, we analyze using corpus metadata. Finally, we examine the linguistic properties of the quotations themselves. These results reveal several striking patterns discussed in the following sections.  
+We then visualize our results at different scales. First, we visualize the citations according to narrative position within the novel (a heat map of book- and chapter-level citations; a text browser showing sentence- and paragraph-level citations). Second, we use corpus metadata for a more granular analysis. Finally, we examine the linguistic properties of the quotations themselves. These results reveal several striking patterns discussed in the following sections.  
 
 
 \end{block}
@@ -145,8 +145,8 @@ We then visualize these results at different scales. First, we analyze this acco
 \begin{block}{Frequently Quoted Chapters}
 
 \begin{figure}
-\includegraphics[width=0.9\linewidth]{synchronic-journals.png}
-\caption{Quoted words by chapter, subdivided by journal.}
+\includegraphics[width=0.95\linewidth]{synchronic-journals.png}
+\caption{Quoted words by chapter, subdivided by journal}
 \end{figure}
 
 Journals play a role in determining the relative number of citations of a given chapter, \emph{Style}, for instance, contributes heavily to the number of Chapter 1 citations.  Critical attention, across journals, tends to favor the first half of the novel.
@@ -168,8 +168,8 @@ Journals play a role in determining the relative number of citations of a given 
 Literary critics writing in the specialist journal \emph{George Eliot / George Henry Lewes Studies} quote different passages from their counterparts publishing in more generalist journals. A positive score here indicates a chapter is quoted more by specialists:  
 
 \begin{figure}
-\includegraphics[width=0.9\linewidth]{specialization.png}
-\caption{Chapters quoted, specialists vs. non-specialists.}
+\includegraphics[width=0.95\linewidth]{specialization.png}
+\caption{Chapters quoted, specialists vs. non-specialists}
 \end{figure}
 
 
@@ -185,7 +185,7 @@ Literary critics writing in the specialist journal \emph{George Eliot / George H
 %	IMPORTANT RESULT
 %----------------------------------------------------------------------------------------
 
-\begin{alertblock}{\emph{Middlemarch}: Shifts in Critical Attention over Time}
+\begin{alertblock}{\emph{Middlemarch}: Shifts in Critical Attention Over Time}
 
 Viewed diachronically, trends arise in critical quotations of the novel. Critics' favorite chapters to excerpt shift from Chapter 81 in the 1950s to Chapter 20 in the 60s-70s, and to Chapter 15 in the 80s-90s. 
 
@@ -217,10 +217,10 @@ Viewed diachronically, trends arise in critical quotations of the novel. Critics
 
 \begin{block}{Properties of Quotations}
 
-Figure 5 shows characteristic parts of speech of quotations (positive), and non-quotations (negative). 
+Figure 3 shows characteristic parts of speech of quotations (positive), and non-quotations (negative). 
 
 \begin{figure}
-\includegraphics[width=0.9\linewidth]{pos-tags.png}
+\includegraphics[width=0.95\linewidth]{pos-tags.png}
 \caption{Distinctive parts of speech of quotations}
 \end{figure}
 
