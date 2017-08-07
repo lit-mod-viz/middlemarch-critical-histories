@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.2)  7 AUG 2017 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.2)  7 AUG 2017 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1135,80 +1135,67 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12.50194> on input line 74.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8.93> on input line 74.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 386.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 323.
 
 (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 386
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 323
 .
 
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Calculating math sizes for size <37.03> on input line 386.
+LaTeX Font Info:    Calculating math sizes for size <37.03> on input line 323.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <37.03> on input line 386.
+(Font)              <37.03> on input line 323.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <25.92088> on input line 386.
+(Font)              <25.92088> on input line 323.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <18.515> on input line 386.
+(Font)              <18.515> on input line 323.
 <synchronic-journals.png, id=15, 945.5325pt x 364.36125pt>
 File: synchronic-journals.png Graphic file (type png)
 <use synchronic-journals.png>
-Package pdftex.def Info: synchronic-journals.png  used on input line 386. on in
-put line 386.
+Package pdftex.def Info: synchronic-journals.png  used on input line 323. on in
+put line 323.
 Package pdftex.def Info: Requested size: 610.54266pt x 235.27528pt on input lin
-e 386.
+e 323.
 <specialization.png, id=17, 961.5925pt x 381.425pt>
 File: specialization.png Graphic file (type png)
 <use specialization.png>
-Package pdftex.def Info: specialization.png  used on input line 386. on input l
-ine 386.
+Package pdftex.def Info: specialization.png  used on input line 323. on input l
+ine 323.
 Package pdftex.def Info: Requested size: 610.54266pt x 242.1789pt on input line
- 386.
+ 323.
 <diachronic.png, id=18, 845.1575pt x 379.4175pt>
 File: diachronic.png Graphic file (type png)
 <use diachronic.png>
-Package pdftex.def Info: diachronic.png  used on input line 386. on input line 
-386.
+Package pdftex.def Info: diachronic.png  used on input line 323. on input line 
+323.
 Package pdftex.def Info: Requested size: 1253.55197pt x 562.77383pt on input li
-ne 386.
+ne 323.
 <placeholder.jpg, id=19, 351.3125pt x 193.72375pt>
 File: placeholder.jpg Graphic file (type jpg)
 <use placeholder.jpg>
-Package pdftex.def Info: placeholder.jpg  used on input line 386. on input line
- 386.
+Package pdftex.def Info: placeholder.jpg  used on input line 323. on input line
+ 323.
 Package pdftex.def Info: Requested size: 610.54266pt x 336.72778pt on input lin
-e 386.
+e 323.
 <pos-tags.png, id=20, 957.5775pt x 379.4175pt>
 File: pos-tags.png Graphic file (type png)
 <use pos-tags.png>
-Package pdftex.def Info: pos-tags.png  used on input line 386. on input line 38
-6.
+Package pdftex.def Info: pos-tags.png  used on input line 323. on input line 32
+3.
 Package pdftex.def Info: Requested size: 610.54266pt x 241.91164pt on input lin
-e 386.
+e 323.
 
-No file main.bbl.
-<logo.png, id=23, 1401.235pt x 521.95pt>
-File: logo.png Graphic file (type png)
-<use logo.png>
-Package pdftex.def Info: logo.png  used on input line 386. on input line 386.
-Package pdftex.def Info: Requested size: 305.2655pt x 113.70638pt on input line
- 386.
-File: logo.png Graphic file (type png)
-<use logo.png>
-Package pdftex.def Info: logo.png  used on input line 386. on input line 386.
-Package pdftex.def Info: Requested size: 305.2655pt x 113.70638pt on input line
- 386.
-
-Overfull \hbox (4.99402pt too wide) detected at line 386
+Overfull \hbox (4.99402pt too wide) detected at line 323
 [][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][
 ][] [][][][][][][][][] [][][][][][][] 
  []
 
 
-Overfull \vbox (1023.34357pt too high) detected at line 386
+Overfull \vbox (692.8103pt too high) detected at line 323
  []
 
 
@@ -1219,7 +1206,7 @@ Overfull \hbox (88.20334pt too wide) has occurred while \output is active
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./synchronic-journals.png> <./specialization.png> <./diachronic.png> <./place
-holder.jpg> <./pos-tags.png> <./logo.png>]
+holder.jpg> <./pos-tags.png>]
 \tf@nav=\write6
 \openout6 = `main.nav'.
 
@@ -1229,11 +1216,11 @@ holder.jpg> <./pos-tags.png> <./logo.png>]
 \tf@snm=\write8
 \openout8 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 388.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 388.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 388.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 388.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 325.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1242,13 +1229,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 22401 strings out of 492990
- 432766 string characters out of 6138689
- 605752 words of memory out of 5000000
- 25395 multiletter control sequences out of 15000+600000
- 76966 words of font info for 65 fonts, out of 8000000 for 9000
+ 22378 strings out of 492990
+ 432191 string characters out of 6138689
+ 571574 words of memory out of 5000000
+ 25373 multiletter control sequences out of 15000+600000
+ 74177 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,16n,71p,771b,1455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,16n,71p,771b,1435s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fo
 nts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.
 enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist
@@ -1257,10 +1244,10 @@ lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/t
 exmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb><
 /usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on main.pdf (1 page, 263785 bytes).
+Output written on main.pdf (1 page, 246096 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 74 words of extra memory for PDF output out of 10000 (max. 10000000)
 
