@@ -1,16 +1,24 @@
 ## *Middlemarch* Critical Histories Spring 2017 Article Outline ##
 
+It sounds like we have the makings of 3 different papers: 
+
+1) a methods writeup for a like JoDH 
+2) a PMLA, ELH general article, 
+3) a press release for CU journalism
+
+
 Old: Overview for LLC papers: aiming for 9,000 words
 New: aiming for more general journals, (eg ELH, NLH, PMLA)
 
 - 1) Introduction: Research question
 	- *Middlemarch* on aphorism, novel selection: Milan 
-- 2) Methodology 
+- 2) Methodology [make this shorter for our generalist article; break out into a separate "methodology" standalone article]
 	- a) creating the corpus: Jonathan
 	- b) the text-matcher algorithm: Jonathan
 - 3) Discussion: parts of the novel 
 	- a) 1st half vs. 2nd half; most/least quoted of 8 Books: Milan
 		- Meta-discussion about visualization choices & binning, describing visualization choices for non-digital humanist readers
+		- Dip back into citing the actual texts from our corpus of scholarship:  include one work that is an outlier to the ""more frequently cited first half," dip in to analyze the particular text of one exemplar work of scholarship
 	- b) Which chapters are most/least quoted: Milan
 	        - discuss normalising by chapter length (only for word counts?)
 		- Make a graph of the composite of ALL chapters (do the beginnings or endings of chapters get more attention)
