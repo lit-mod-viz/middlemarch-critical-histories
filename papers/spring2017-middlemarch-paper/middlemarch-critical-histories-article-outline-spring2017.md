@@ -6,6 +6,7 @@ It sounds like we have the makings of 3 different papers:
 2) a PMLA, ELH general article, 
 3) a press release for CU journalism
 
+TIMELINE?
 
 Old: Overview for LLC papers: aiming for 9,000 words
 New: aiming for more general journals, (eg ELH, NLH, PMLA)
@@ -34,7 +35,9 @@ New: aiming for more general journals, (eg ELH, NLH, PMLA)
 			- Compare diachronic view with a synchronic heat map  
 - 4) Discussion: Analysis of the language of quotations (synchronic analysis)
 	- a) The uses of abstraction: looking at distinctive keywords, specifically the frequency of abstract, generic nouns (not lemmatized and lemmatized). "life" vs "lives" as an interesting point of analysis: Jonathan
-	- b) Specialist journals vs. nonspecialist: Sierra
+	- b) Specialist journals vs. nonspecialist: Sierra 
+	- [NOTE: be careful about using the word "keyword" to describe MDWs; clarify what we mean by most frequently cited words]
+	- [NOTE: include more quotations from our critics peppering this with quotation with works of criticism]
 - 5) Extension to other critical traditions
 	- a) Sociology of literature: Sierra
 		- Thinking about the received practices of citation (Bourdieu): 
@@ -109,7 +112,7 @@ TOTAL: 8000 words
 
 ## Cut Sections ##
 
--  Visualization: the question of how to visualize
+-  Visualization: the question of how to visualize [This might be worth incorporating into a methods article]
 	- Have this in the section the issues of how to represent it -- ALSO methodological
 	- a way of bringing in non-digital people into the paper? 
 	- the bin and unit sizes 
