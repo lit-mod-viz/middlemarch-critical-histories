@@ -6,8 +6,6 @@ It sounds like we have the makings of 3 different papers:
 2) a PMLA, ELH general article, 
 3) a press release for CU journalism
 
-TIMELINE?
-
 Old: Overview for LLC papers: aiming for 9,000 words
 New: aiming for more general journals, (eg ELH, NLH, PMLA)
 
