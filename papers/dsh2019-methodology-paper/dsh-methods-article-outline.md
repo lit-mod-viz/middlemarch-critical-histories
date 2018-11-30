@@ -1,0 +1,1 @@
+## *Middlemarch* Methods Paper Fall 2018-Spring 2019
