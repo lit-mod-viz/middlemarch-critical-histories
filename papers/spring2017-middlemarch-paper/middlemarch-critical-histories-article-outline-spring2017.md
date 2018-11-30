@@ -33,7 +33,7 @@ New: aiming for more general journals, (eg ELH, NLH, PMLA)
 		- What are the practices of scholarly citation (eg tacit knowledge about what is already quoted; what are "canonical" quotations, proportion of frequently cited to relatively infrequently cited quotations) 
 		- Journals breakdown of synchronic analysis? 
 	- b) Theories of reception
-	        - Jauss and Iser: Milan
+	        - Ingarden and Iser: Milan
 		- Compagnon: Jonathan	
 - Conclusion
 
