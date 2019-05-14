@@ -31,6 +31,7 @@ New: aiming for more general journals, (eg ELH, NLH, PMLA)
 	        - discuss normalising for number of articles/quotes per decade
 		- The rise and fall of chapter 15, this way of talking about the value of a diachronic analysis 
 			- Compare diachronic view with a synchronic heat map  
+			- Compare quotes from 1st and 2nd half of the chapter (which articles focus on which)
 - 4) Discussion: Analysis of the language of quotations (synchronic analysis)
 	- a) The uses of abstraction: looking at distinctive keywords, specifically the frequency of abstract, generic nouns (not lemmatized and lemmatized). "life" vs "lives" as an interesting point of analysis: Jonathan
 	- b) Specialist journals vs. nonspecialist: Sierra 
