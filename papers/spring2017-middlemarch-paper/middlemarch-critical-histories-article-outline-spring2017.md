@@ -10,7 +10,8 @@ Old: Overview for LLC papers: aiming for 9,000 words
 New: aiming for more general journals, (eg ELH, NLH, PMLA)
 
 - 1) Introduction: Research question
-	- *Middlemarch* on aphorism, novel selection: Milan 
+	- *Middlemarch* on aphorism, novel selection: Milan
+	- comparable project: https://arcade.stanford.edu/rofl/enlightenment-scholarship-numbers-dfrjstororg-dirty-quantification-and-future-lit-review
 - 2) Methodology [make this shorter for our generalist article; break out into a separate "methodology" standalone article]
 	- a) creating the corpus: Jonathan
 	- b) the text-matcher algorithm: Jonathan
