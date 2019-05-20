@@ -17,7 +17,8 @@ Quotations of literary texts are some of the most important "raw materials" of l
 
 In reflecting on these questions, George Eliot's novel *Middlemarch* stood out as being an especially rich test case. Its first chapter compares the heroine's outstanding qualities to the way a Bible quotation stands out within a piece of journalism, and the novel itself repeatedly thematizes more abstract questions of how a whole can be made up of heterogeneous parts, including ones that come from elsewhere (the newcomer Lydgate's struggle to find a place within the local community, for instance). [find pithier quotation]. Moreover, as Leah Price's work has shown, *Middlemarch*'s afterlife has also been characterized by unusually intensive quotation practices, starting with anthologizers of the time who extracted the novel's eminently quotable aphorisms into books such as *Wise, Witty and Tender Sayings of George Eliot* (even including, ironically enough, a plea against decontextualized wisdom such as: "........."). 
 
-Other practical considerations made *Middlemarch* seem ideal for our purposes. Firstly, its canonical status within studies of English literature ensured the availability of a large sample of articles. Secondly, its length: unlike short hyper-canonical works such as a Shakespeare sonnet, where every word is likely to have been quoted many times, novels in general, and long novels in particular, pose more acute problems for quotation, where a small part has to stand for a much larger whole. Whereas Margaret Cohen (and, citing Cohen, Franco Moretti) has referred to the 99% of forgotten non-canonical literature of the past as "the great unread" [The Sentimental Education ofthe Novel [@CohenSentimentalEducationNovel1999, 23; @MorettiSlaughterhouseLiterature2000, 208], we were curious to consider how large swathes of even a hyper-canonical novel can remain "unread" as far as literary scholarship is concerned. Finally, on a practical level, *Middlemarch* occupies a sweet spot of being out of copyright, which facilitates acquiring a digital text, and yet not so old as to raise problems of variant spellings. It also has a relatively straightforward editorial history, so that we haven't had to keep track of multiple versions. [Include more reflection on Middlemarch as a work that is both canonically quoted and also frequently referenced as its own unit]
+Other practical considerations made *Middlemarch* seem ideal for our purposes. Firstly, its canonical status within studies of English literature ensured the availability of a large sample of articles. Secondly, its length: unlike short hyper-canonical works such as a Shakespeare sonnet, where every word is likely to have been quoted many times, novels in general, and long novels in particular, pose more acute problems for quotation, where a small part has to stand for a much larger whole. Whereas Margaret Cohen (and, citing Cohen, Franco Moretti) has referred to the 99% of forgotten non-canonical literature of the past as "the great unread" [The Sentimental Education of
+the Novel [@CohenSentimentalEducationNovel1999, 23; @MorettiSlaughterhouseLiterature2000, 208], we were curious to consider how large swathes of even a hyper-canonical novel can remain "unread" as far as literary scholarship is concerned. Finally, on a practical level, *Middlemarch* occupies a sweet spot of being out of copyright, which facilitates acquiring a digital text, and yet not so old as to raise problems of variant spellings. It also has a relatively straightforward editorial history, so that we haven't had to keep track of multiple versions. [Include more reflection on Middlemarch as a work that is both canonically quoted and also frequently referenced as its own unit]
 
 Having mentioned Moretti, we should briefly position our project in relation to his conception of "distant reading". On the one hand, this project shares much of his spirit, seeking to detect patterns which are both above and below the level of the literary text: looking at "a very small formal unit and a very large one" [@MorettiSlaughterhouseLiterature2000, 217], and whose effects we register without necessarily being fully conscious [Moretti's term is "subliminal"]. On the other hand, our project diverges from his in focusing on a single work, and an extremely canonical one at that. We prefer to think of this as exploring a position somewhere between distant and close reading. Indeed, one of the repeated concerns of this paper will be to show what patterns are revealed or concealed *at different scales* within this middle-distant range. At the extremes, we connect these various scales to the "words on the page" on which close reading operates [footnote here, or is this obvious?], as well as to a distant-reading perspective encompassing hundreds of novels.
 
@@ -45,7 +46,45 @@ The algorithm begins by pre-processing both corpora (*Middlemarch* and the criti
 
 Next the algorithm searches for overlapping sequences of n-grams (phrases consisting of n words) in both corpora. Based on previous work in text reuse detection and our own process of trial and error, we settled on searching for three overlapping trigrams (three-word sequences), meaning that the shortest possible match we detect is a five-word sequence. [Give example - I think this is a little counterintuitive to non techie people.] Where both corpora contained the same sequence of three overlapping trigrams this was counted as a match. Manual examination of results for various parameters suggested that this configuration provided the best balance of accuracy without detecting false positives. Because we found that the algorithm sometimes struggled to capture the entirety of a quoted passage, we added a final phase in which the algorithm examines the words immediately before and after every match: if a word either side is close enough [by what measure? Levenstein distance of n?] then it's added to the match and the process is repeated until the match is maximally long. To further improve the quality of the matches, a subsequent algorithm compared all the matches within an article, and merged them if they were [exactly? almost?] contiguous: the aim here was to join a single quotation split across two pages, although it would also merge two separate quotations which happened to be contiguous portions of the text.
 
-# 3. *Middlemarch* in parts: the distribution of quotations
+
+# 3. Parts of the novel
+
+In this section, we analyze the distribution of quotations across parts of the novel, starting with the largest unit of the novel as a whole, and moving through the major subdivisions of the 8 Books and 86 chapters, before focusing on the detail of specific paragraphs, sentences and phrases. At each level, we find that the passages quoted are distributed very unevenly. Patterns which emerge at one level may not be visible at larger scales, or may reveal more complex patterns at smaller scales.
+
+## 3a. Halves and Books
+
+The simplest division of the novel is into two halves. We divided the text into two segments comprising Books 1-4/Chapters 1-42/....... words and Books 5-8/Chapters 43-86/........ words respectively. Even this two-part division already reveals a striking disparity: ... of the ... quotations, or ...%, come from the first half of the novel, with only ...% of quotations originating from the novel's second half.
+
+While we could search for explanations based on the content of the novel *Middlemarch*, the results of a larger-scale research project at Stanford ........ analyzing quotations from novels in British Periodicals from the 18....s to the 19........s has independently found that this pattern holds true for quotations from novels in general. While we wouldn't want to suggest that scholars are failing to make it all the way through this long novel, there may be general patterns in the ways readers attend to earlier vs later parts of a novel, and which they deem to be worthy of comment.
+
+Across all the articles, quotations from the first half range from 0-..... tokens, while quotations from the second half range from 0-..... tokens. ......% of all the articles contain at least one quotation from each half.
+
+The most extreme instance of first-half bias is ........'s article .......... (year), which features ...... quotations from the first half and ...... from the second. It's notable that this article is also............
+
+Conversely, the most extreme exception to this bias is .......'s article .......... (year), which features ...... quotations from the first half and ...... from the second. It's notable that this article is also............
+
+What these extreme cases allow us to see is that...... . On the other hand, in most articles, the bias towards the first half is........ .
+
+Moving to a slightly smaller scale, the novel is divided into 8 "Books", each of which was initially published separately as a serial instalment between 1871 and 1872. These books vary in length from .......... words (Book .....) to ......... words (Book .....). [^1]
+
+[^1]: It's noteworthy that George Eliot and her publisher were very aware of the discrepancies in length among the Books, even considering publishing shorter Books on thicker paper to compensate [Martin, pp.184-5].
+
+Once again the quotations are drawn very unevenly from across the 8 Books, with Book ...... most frequently cited with ...... of the hits (....%), and Book in last place with ....... of the hits (....%).
+
+As with the division into two halves, most articles don't limit themselves exclusively to discussing just one Book. In fact, ......% of articles include quotations from at least....... Books. [Does proximity play a role? Do quotations tend to cluster around adjacent Books?]
+
+The most extreme outlier, then, is ........'s article ........ (year), which includes ...... quotations from Book ....... (the least popular) and only ...... quotations/no quotations at all from other Books. It is notable that this article is also........ .
+
+In conclusion, 
+
+
+## 3b. Chapter 20: the critics' favorite
+
+
+
+
+
+# OLD - Integrate into section 3 above: *Middlemarch* in parts: the distribution of quotations
 
 As said before, despite the enormous amount of scholarly attention *Middlemarch* has received, its size means that large swathes of it have probably never been quoted. This raised for us two questions: is there a pattern to the distribution of quotations, and how (if at all) can we best explain these? As we will show, the question of patterns also requires reflection on the *scale* of analysis. In this section, we examine distributions in descending order of size, starting with a division into the first and second halves of the novel, then comparison between the eight "Books", then the 88 chapters and finally focusing in on paragraphs within a single chapter. In the final part of this section, we introduce a decade-by-decade breakdown of these patterns at the chapter level, in order to examine trends and changes over time.
 
@@ -54,9 +93,6 @@ But first a few words on our results. Of the ..... articles in the corpus, only 
 At the largest scale, the first half of the novel has received substantially more attention than the second half: ...... quotations are taken from the first half compared to ..... for the second half. In other words, the first half accounts for ...% of all quotations. [Difference for word counts?]. While we don't want to suggest that scholars are failing to make it all the way through, the latter parts of the novel certainly seem to have been less generative of discussion. Partly, such a tendency may simply be self-sustaining: if all other scholars have discussed and continue to discuss sections from earlier in the novel, any given scholar will be biased in that direction if they want to engage in those discussions (a point we treat more extensively in section 5 on the sociology of the discipline). An intriguing possibility, however, is that this privileging of the first half isn't unique to *Middlemarch*, or even just to long texts, but can be detected across scholarly writing on all kinds of texts. A project at Stanford has found this to be the case for articles in journals from the 1870s to 1920s [check?] quoting not only *Middlemarch* but some 150 [check] other texts. Important to note is that these were not *scholarly* journals, and that literary scholarship such as it was looked very different at that time, but the trend is certainly suggestive.
 
 Once we shift to the level of the novel's eight "Books", a more complex though not entirely unexpected picture emerges. Within the first half, we see that
-
-
-
 
 
 
