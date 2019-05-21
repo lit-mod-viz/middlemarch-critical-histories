@@ -7,7 +7,9 @@ It sounds like we have the makings of 3 different papers:
 3) a press release for CU journalism
 
 Old: Overview for LLC papers: aiming for 9,000 words
-New: aiming for more general journals, (eg ELH, NLH, PMLA)
+New: aiming for more general journals, (eg ELH, NLH, PMLA). 
+PMLA asks for articles between 6,000 and 9,000 words ("The word count includes discursive notes but excludes works-cited lists and translations.")
+ELH asks for articles between 8,000 and max 12,000 words (*includes* endnotes)
 
 - 1) Introduction: Research question
 	- *Middlemarch* on aphorism, novel selection: Milan
