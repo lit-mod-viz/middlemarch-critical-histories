@@ -6,3 +6,6 @@ A place to gather possibly relevant quotations or epigraphs that don't yet have 
 ("I knew that it was not only among works, within the long run of centuries, but even at the heart of a single work that criticism plays at plunging back into the shadows that which for too long shone brightly, and drawing out from them that which seemed doomed to permanent darkness." - translation MT)
 
 Marcel Proust, *Le Côté de Guermantes* (http://alarecherchedutempsperdu.com/marcelproust/250)
+
+Exemplary of excerpting as critical practice:
+https://www.routledge.com/Using-Key-Passages-to-Understand-Literature-Theory-and-Criticism/Laga/p/book/9781138561977
