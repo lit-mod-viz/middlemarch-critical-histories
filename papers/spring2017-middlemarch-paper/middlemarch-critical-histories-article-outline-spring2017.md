@@ -8,8 +8,17 @@ It sounds like we have the makings of 3 different papers:
 
 Old: Overview for LLC papers: aiming for 9,000 words
 New: aiming for more general journals, (eg ELH, NLH, PMLA). 
-PMLA asks for articles between 6,000 and 9,000 words ("The word count includes discursive notes but excludes works-cited lists and translations.")
-ELH asks for articles between 8,000 and max 12,000 words (*includes* endnotes)
+
+- PMLA asks for articles between 6,000 and 9,000 words ("The word count includes discursive notes but excludes works-cited lists and translations.")
+- ELH asks for articles between 8,000 and max 12,000 words (*includes* endnotes)
+	- ELH likes meaty, discursive endnotes, w/ lots of theoretical heavy lifting
+	- longer intros, clocking in around 8 paragraphs on average, 4.5-6 pages (1,500-2,000 words) -- but not always
+	- Manuscripts should be prepared in accordance with The Chicago Manual of Style, 16th ed. Manuscripts should be double-spaced, with one-inch margins, in Times New Roman, 12 pt. font. An abstract of around 100 words should accompany each submission.
+- NLH asks for articles between 6,000-10,000 words
+	- Very Latour-heavy in recent years
+	- Interested in "articles that engage with literary and cultural theory," "articles that engage with broad questions of literary history and literary-historical method," "articles addressing general theoretical or methodological questions that are of interest to scholars in a wide range of fields"
+	- Endnotes are used rather than bibliographies, and Chicago style is preferred. 
+	- NLH does not publish digressive endnotes.
 
 - 1) Introduction: Research question
 	- *Middlemarch* on aphorism, novel selection: Milan
@@ -17,7 +26,7 @@ ELH asks for articles between 8,000 and max 12,000 words (*includes* endnotes)
 - 2) Methodology [make this shorter for our generalist article; break out into a separate "methodology" standalone article]
 	- a) creating the corpus: Jonathan
 	- b) the text-matcher algorithm: Jonathan
-- 3) Discussion: parts of the novel 
+- 3) How Critics Quote
 	- a) 1st half vs. 2nd half; most/least quoted of 8 Books: Milan
 		- Meta-discussion about visualization choices & binning, describing visualization choices for non-digital humanist readers
 		- Dip back into citing the actual texts from our corpus of scholarship:  include one work that is an outlier to the ""more frequently cited first half," dip in to analyze the particular text of one exemplar work of scholarship
