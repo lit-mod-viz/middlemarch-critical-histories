@@ -11,7 +11,7 @@ figPrefix: Figure
 
 # 1. Introduction
 
-Scholars across all [or "all humanistic" disciplines––since some scientific disciplines rely entirely on citation, rather than quotation] disciplines routinely quote other writings, but the quotation has a particularly fundamental status for literary scholars. Quoting from literary works is how we present our evidence, comparable to an image for an art historian, an archival reference for a historian or the numbers, tables and graphs by which scientists in many disciplines report their results. If literary works themselves are our raw materials, a quotation is the minimally processed form [Or "most basic unit"? So we can avoid the inevitable Reader #2 who says that "all quotations are 'cooked' not 'raw'"] in which those materials appear in our studies. Quotations are a sliced tomato salad, while paraphrases, generalizations, abstractions and plot summaries are various kinds of tomato soups, salsas and sauces.
+Scholars across the humanistic disciplines routinely quote other writings, but the quotation has a particularly fundamental status for literary scholars. Quoting from literary works is how we present our evidence, comparable to an image for an art historian, an archival reference for a historian or the numbers, tables and graphs by which scientists in many disciplines report their results. If literary works themselves are our raw materials, a quotation is the minimally processed form [Or "most basic unit"? So we can avoid the inevitable Reader #2 who says that "all quotations are 'cooked' not 'raw'"] in which those materials appear in our studies. Quotations are a sliced tomato salad, while paraphrases, generalizations, abstractions and plot summaries are various kinds of tomato soups, salsas and sauces.
 
 Learning to quote appropriately is part of the apprenticeship to enter the discipline, even if it's rarely taught explicitly. Norms around quotation function unobtrusively for the most part, often only becoming palpable when giving feedback to undergraduates. Nonetheless, even if we might struggle to put it into words, we might reasonably believe that we know why we quote what we quote, and how we quote. Like that famous non-definition of obscenity, we know an (in)appropriate quotation when we see it.
 
@@ -21,7 +21,7 @@ Decades of research in linguistics have shown that when a large enough collectio
 
 We began this project curious to see what quotation practices would look like at a scale beyond that which mere mortals can perceive, and approached the results not with hypotheses but with questions. Which parts of a given literary text have been quoted most frequently? Which parts haven't? Have these patterns changed over time? Can we detect a life-cycle for certain passages which rise and fall in popularity over time? Can this be connected to major movements within the field (e.g. feminist criticism, deconstruction) or even to a specific critic? How do large-scale patterns relate to an individual scholar's freedom, choices and disciplinary pressures?
 
-George Eliot's novel *Middlemarch* struck us as a rich test case for these questions. Its first chapter compares the heroine's outstanding qualities to the way a Bible quotation stands out within a piece of journalism, and the novel itself repeatedly thematizes more abstract questions of how a whole can be made up of heterogeneous parts, including elements drawn in from elsewhere (the newcomer Lydgate's struggle to find a place within the local community, for instance). [find pithier quotation]. Moreover, as Leah Price's work has shown, *Middlemarch* was quoted with exceptional intensity from the moment of publication, starting with anthologizers of the time who extracted the novel's eminently quotable aphorisms into books such as *Wise, Witty and Tender Sayings of George Eliot* (even including, ironically enough, a plea against decontextualized wisdom such as: "........."). 
+George Eliot's novel *Middlemarch* struck us as a rich test case for these questions. Its first chapter compares the heroine's outstanding qualities to the way a Bible quotation stands out within a piece of journalism, and the novel itself repeatedly thematizes more abstract questions of how a whole can be made up of heterogeneous parts, including elements drawn in from elsewhere (the newcomer Lydgate's struggle to find a place within the local community, for instance). [find pithier quotation]. Moreover, as Leah Price's work has shown, *Middlemarch* was quoted with exceptional intensity from the moment of publication, starting with anthologizers of the time who extracted the novel's eminently quotable aphorisms into books such as *Wise, Witty and Tender Sayings of George Eliot*.
 
 *Middlemarch* is also ideal for our purposes on practical grounds. Firstly, its canonical status within studies of English literature ensured the availability of a large sample of articles. Secondly, its length: unlike short hyper-canonical works such as a Shakespeare sonnet, where every word is likely to have been quoted many times, novels in general, and long novels in particular, pose more acute problems for quotation, where a small part has to stand for a much larger whole. We were curious to examine how scholars allocate their attention when they can only quote a small fraction of the work they're discussing. Quotation here demands, to use a phrase of Eliot's, an "eminently discriminating selection" ["Historic Guidance", that notebook essay on Comte, @EliotMoreLeavesGeorge1966, 373]. Finally, on a practical level, *Middlemarch* occupies a sweet spot of being out of copyright, which facilitates acquiring a digital text, and yet not so old as to raise linguistic problems such as variant spellings. It also has a relatively straightforward editorial history, so that we haven't had to keep track of multiple versions. [Include more reflection on Middlemarch as a work that is both canonically quoted and also frequently referenced as its own unit]
 
@@ -35,13 +35,13 @@ The first section of this article offers an account of the dataset and tool we c
 
 The foundation of this project is a comparison between two corpora, one relatively small, consisting of the entire novel *Middlemarch*, the other large and potentially endlessly expandable, consisting of as many writings citing the novel as possible. Of these two, the *Middlemarch* corpus posed far fewer problems: we took the digital text from Project Gutenberg, which aside from a minor issue involving British vs. American spellings seemed to be without visible errors.
 
-As for our corpus of articles, **we began by batch-downloading articles from online library JSTOR**[I would cut this section out––in the wake of Aaron Swartz, I think any discussion of batch-downloading before getting JSTOR approval might raise eyebrows] and then approached JSTOR Labs directly, which very helpfully supplied us with all the articles in JSTOR's collection containing the word "Middlemarch". This proved to be a mixed bag. Firstly, of the 6,069 individual items, many were not articles but "Front Matter", "End Matter", tables of contents and other miscellaneous kinds of writing where the word "Middlemarch" appeared. After running the text matcher (see below), 489 items contained at least one quotation from the novel. Of these, we excluded 7 items dating from between 1873 and 1949, since the coverage prior to the 1950s was so patchy as to prevent any meaningful generalizations. This restriction is justified not only quantitatively but also historically: since our object of study is a scholarly tradition, it's by no means clear how far back the field of literary studies and its institutional contexts remain meaningfully "the same". Certainly it would be dubious to conflate late nineteenth-century literary journals with scholarly journals today, but the early twentieth century is a grey area which for now we've chosen to avoid.
+As for our corpus of articles, JSTOR Labs supplied us with all the articles in JSTOR's collection containing the word "Middlemarch". This proved to be a mixed bag. Firstly, of the 6,069 individual items, many were not articles but "Front Matter", "End Matter", tables of contents and other miscellaneous kinds of writing where the word "Middlemarch" appeared. After running the text matcher (see below), 489 items contained at least one quotation from the novel. Of these, we excluded 7 items dating from between 1873 and 1949, since the coverage prior to the 1950s was so patchy as to prevent any meaningful generalizations. This restriction is justified not only quantitatively but also historically: since our object of study is a scholarly tradition, it's by no means clear how far back the field of literary studies and its institutional contexts remain meaningfully "the same". Certainly it would be dubious to conflate late nineteenth-century literary journals with scholarly journals today, but the early twentieth century is a grey area which for now we've chosen to avoid.
 
 The remaining 482 items constitute our corpus for all the results reported below.
 
-Chronologically, the corpus includes items from 1950 to 2016, but is heavily skewed towards the present. The number of items per decade is as follows:
+~~Chronologically, the corpus includes items from 1950 to 2016, but is heavily skewed towards the present. The number of items per decade is as follows:
 
-1950s | 18
+~~1950s | 18
 1960s | 28
 1970s | 65
 1980s | 76
@@ -49,7 +49,7 @@ Chronologically, the corpus includes items from 1950 to 2016, but is heavily ske
 2000s | 106
 2010s | 96
 
-As mentioned above, we're interested in what can be seen at different scales of analysis: this means that the patterns we identify for our period wouldn't be invalidated if different patterns were found over a longer historical period. For now, we remain agnostic as to how far our results might generalise beyond our specific corpus.
+~~As mentioned above, we're interested in what can be seen at different scales of analysis: this means that the patterns we identify for our period wouldn't be invalidated if different patterns were found over a longer historical period. For now, we remain agnostic as to how far our results might generalise beyond our specific corpus.
 
 The text types within this corpus are also somewhat erratic. While 361 items (74.9%) originate from journals, 121 items have not received a "journal code" in JSTOR's metadata. Some of these are classified as "chapter" or "preface" (JSTOR also includes some books) but the vast majority are simply labelled "miscellaneous".
 
@@ -146,8 +146,40 @@ Like all aspects of this project, this quantitative finding about Chapter 15 is 
 Without extrapolating too much from this example, we want to suggest that Middlemarch’s critical quotations allow us to think about the degree to which scholarly quotation traces patterns in literary history. Scholars don’t quote in a vacuum. They quote––and they return to quote the passages other scholars quote––because this part of the novel has a history in critical discourse. Sometimes the presence of this pre-history can lead us to not quote from that passage––as we saw happen with Chapter 15––and there are ongoing chapters that critics seem to return to and quote again and again. While one might read these findings and come away with a dire warning about all the swaths of the novel that remain relegated to what Margaret Cohen calls “the great unread,” we’re arguing instead, that the passages critics are citing have as much to do with critics’ historical context as it does with the novel’s structure.[@CohenSentimentalEducationNovel1999, 23] 
 
 
+# 4. Discussion: Analysis of the language of quotations (synchronic analysis)
 
-# OLD - Integrate into section 3 above: *Middlemarch* in parts: the distribution of quotations
+## 4a The uses of abstraction
+
+looking at distinctive keywords, specifically the frequency of abstract, generic nouns (not lemmatized and lemmatized). "life" vs "lives" as an interesting point of analysis: Jonathan
+
+
+## 4b) Specialist journals vs. nonspecialist
+
+[NOTE: be careful about using the word "keyword" to describe MDWs; clarify what we mean by most frequently cited words]
+[NOTE: include more quotations from our critics peppering this with quotation with works of criticism]
+
+# 5. Extension to other critical traditions
+
+## 5a. Sociology of literature
+
+Thinking about the received practices of citation (Bourdieu): 
+		- What are the practices of scholarly citation (eg tacit knowledge about what is already quoted; what are "canonical" quotations, proportion of frequently cited to relatively infrequently cited quotations) 
+		- Journals breakdown of synchronic analysis? 
+
+## 5b) Theories of reception
+
+Ingarden and Iser: Milan
+Compagnon: Jonathan	
+
+# 6. Conclusion
+
+
+
+
+
+# Cuts
+
+## Potentially reintegrate into section 3 (*Middlemarch* in parts: the distribution of quotations)
 
 As said before, despite the enormous amount of scholarly attention *Middlemarch* has received, its size means that large swathes of it have probably never been quoted. This raised for us two questions: is there a pattern to the distribution of quotations, and how (if at all) can we best explain these? As we will show, the question of patterns also requires reflection on the *scale* of analysis. In this section, we examine distributions in descending order of size, starting with a division into the first and second halves of the novel, then comparison between the eight "Books", then the 88 chapters and finally focusing in on paragraphs within a single chapter. In the final part of this section, we introduce a decade-by-decade breakdown of these patterns at the chapter level, in order to examine trends and changes over time.
 
@@ -158,11 +190,7 @@ At the largest scale, the first half of the novel has received substantially mor
 Once we shift to the level of the novel's eight "Books", a more complex though not entirely unexpected picture emerges. Within the first half, we see that
 
 
-
-
-
-
-# Random cuts
+## Random cut from intro
 
 Whereas Margaret Cohen has referred to the 99% of forgotten non-canonical literature of the past as "the great unread" [The Sentimental Education of
 the Novel [@CohenSentimentalEducationNovel1999, 23], we were curious to consider how 
