@@ -201,7 +201,9 @@ As Pierre Bourdieu notes in his own extended citation from another pair of socio
 
 
 # 6. Conclusion
+ 
 
+Coda: on the history of *Middlemarch* quotation in either *ELH* or *NLH* [tailor to journal]
 
 
 
