@@ -29,7 +29,7 @@ George Eliot's novel *Middlemarch* struck us as a rich test case for these quest
 The first section of this article offers an account of the dataset and tool we constructed to detect quotations. The next two sections present our results and discuss possible explanations for some of the most striking patterns we found. First, we examine the uneven attention given to the novel's parts, moving from the largest scales (the novel as a whole; its eight "Books") down through chapters and paragraphs to end up on the smallest scale of individual sentences. In addition, we examine the shifts in quotation distribution over the last 50 years. Second, we examine the most frequently-quoted words across the whole novel, and break the results down into specialist and generalist journals, to gain insights into the dynamics of literary studies as a field. Finally, the article concludes by reflecting on the implications of this research for literary studies more broadly, in particular the contribution it makes to the sociology of scholarly activity and the implications it has for reception theory.
 
 
-# 2. Methodology
+# 2. Locating Quotation: Disciplinary History and Textual Analysis
 
 ## Creating the corpora
 
@@ -184,7 +184,12 @@ events happening to a living being from its beginning to its
 death, and, second, the “process” of becoming of these events,
 itself. 344
 
+### Key passage from Bourdieu ###
 
+>“People quote one another for complex reasons––to confer meaning, authority, or depth upon a statement, to demonstrate familiarity with other work in the same field and to avoid the appearance of plagiarising even ideas conceived independently. The quotation is aimed at readers of whom some, at least, are supposed to have some knowledge of the work quoted (there would be no point in quoting if this were not so) and adhere to the norms concerning what mayy, and what may not, be attributed to it.” When it is not immediately explicit and direct (as in the case of polemical or deforming references), the strategic function of a reference may be apprehended in its modality: humble or sovereign, impeccably academic or sloppy, explicit or implicit and, in this case, unconscious, repressed (and betraying a strong relationship of ambivalence) or knowingly dissimulated (whether through tactical prudence, through a more or less visible and naïve will to annexation—plagiarism—or through disdain). [@BourdieuMarketSymbolicGoods1993, 138]
+
+
+As Pierre Bourdieu notes in his own extended citation from another pair of sociologists, quotations can play many functions in a piece of scholarly writing. Any given quotation might play many functions: performative display of knowledge, citation of a passage in response to another critic’s reading, or turf-claiming. This means that any work of analyzing interpreting quotations on a scale beyond an individual text–-needs to be able to return to individual texts or more local contexts.
 
 
 
