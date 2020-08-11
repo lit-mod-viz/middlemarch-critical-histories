@@ -168,8 +168,32 @@ Thinking about the received practices of citation (Bourdieu):
 
 ## 5b) Theories of reception
 
-Ingarden and Iser: Milan
-Compagnon: Jonathan	
+### Ingarden and Iser
+
+#### Key passages from Ingarden
+
+The arguments in the preceding section have opened
+the way for a new problem, which we might call the problem of
+the *life* of a literary work. Here the word “life” is used in a
+metaphorical sense, and therefore it would be advisable for us
+first of all to clarify the original meaning of this word, at least
+in its main elements. 343
+
+The word “life” means two things above all: the totality of
+events happening to a living being from its beginning to its
+death, and, second, the “process” of becoming of these events,
+itself. 344
+
+
+
+
+
+
+
+
+### Compagnon
+
+
 
 # 6. Conclusion
 
@@ -177,7 +201,7 @@ Compagnon: Jonathan
 
 
 
-# Cuts
+# xx. Cuts
 
 ## Potentially reintegrate into section 3 (*Middlemarch* in parts: the distribution of quotations)
 
