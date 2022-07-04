@@ -19,5 +19,5 @@ jobs:
       - name: Upload Result
         uses: actions/upload-artifact@master
         with:
-          name: papers/spring2022-dsh-methods-paper/
+          name: paper.pdf
           path: papers/spring2022-dsh-methods-paper/
