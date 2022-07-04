@@ -1,6 +1,5 @@
 # How Scholars Quote from Primary Texts: a Case for Corpus-Adapted Text-Reuse Detection
 
-
 # Abstract
 
 Using text-reuse detection, we develop a tool for analyzing quotations from primary texts in a body of scholarly writing. While text-reuse detection has been increasingly used within computational literary studies and adjacent computational fields, less attention has been paid to the particular challenges posed by algorithmic detection of quotations from primary sources. We use our tool to analyze quotations from a source text (George Eliot’s *Middlemarch*) within a collection of JSTOR-held scholarly writing in order to demonstrate the need for corpus-adapted text-reuse detection––by which we mean methods of text-reuse detection tuned to the text structures of specific corpora. Our methodology traces not only how and where a text has been quoted, but also enables a more granular analysis of what parts have been quoted and how this has developed over time. Bringing text-reuse detection together with rich bibliographic metadata, we showcase the strengths of this local, more corpus-specific method for identifying quotations.
@@ -121,18 +120,14 @@ These findings led us to investigate whether there were any patterns to quoted p
 
 Quotable words include, in order of quotability: *life, like, woman, dorothea, love, world, soul, consciousness, little, sort, deep, live, nature,* and *history*. This list contains one character's name, Dorothea, which correlates with frequent quotations; the rest are chiefly abstractions. This leads us to posit whether critics are drawn to passages that contain claims---especially claims which deal with abstractions such as *life, love,* or *soul*---since they provide an easier entry into literary argumentation than, say, a bare description. We also wonder whether readers seek out abstractions as a way of making sense of the rest of the novel.
 
-
 On the opposite end are non-quotable words: words that make a pass less likely to be quoted: *say, Mr., Fred, Bulstrode, Lydgate, Mary, Garth, Celia, James,* and *not*. The presence of the lemma *say* in this list indicates to us that dialogue indicators, like "said Bulstrode," are seldom quoted, but rather paraphrased. Otherwise, this reads like a list of minor characters, whom critics seem less interested in discussing.
-
 
 It turns out that both of these lists of words are corroborated by the work of the Stanford Literary Lab, who find the same patterns with the British Periodicals Online corpus.
 
-
 # Conclusion
+
 In this article, we’ve shown the importance of domain-specific studies of text reuse, using our case study in literary criticism of a single primary text (George Eliot’s Middlemarch) and JSTOR. Our goal has been to provide a concrete pipeline and workflow for others to study quotations in primary sources and other corpora of secondary criticism, and to provide a clear pipeline for others using which is available for use on our GitHub repository. While we continue to refine our matching algorithm––in particular, with the aim of matching more 5-word but less than 12-word strings, our goal has been to illustrate some of the parameter tuning that comes with detecting quotations within a humanities field where quotations compose a significant portion of literary texts. While our primary case study has been in literary studies, our aim has been to demonstrate the value of local and context-specific methods for studying what parts of texts are quoted, and to offer pathways for further work on different corpora.
 
-
-
-
 # Acknowledgements
+
 Alex Gil, Dennis Tenen, Xpmethods group, other contributors to text-matcher
