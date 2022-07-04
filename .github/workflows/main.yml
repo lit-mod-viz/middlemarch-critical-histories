@@ -6,16 +6,18 @@ jobs:
   build-paper:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout
         uses: actions/checkout@v2.3.1
-      - name: Install Pandoc
-        run: sudo apt install pandoc pandoc-crossref
+      - name: Install Nix
+        uses: cachix/install-nix-action@v15
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
       - name: Build Paper
         run: |
           cd papers/spring2022-dsh-methods-paper
-          make
+          nix-shell --run make
       - name: Upload Result
         uses: actions/upload-artifact@master
         with:
-          name: papers/spring2022-dsh-methods-paper/output
-          path: papers/spring2022-dsh-methods-paper/output
+          name: papers/spring2022-dsh-methods-paper/
+          path: papers/spring2022-dsh-methods-paper/
