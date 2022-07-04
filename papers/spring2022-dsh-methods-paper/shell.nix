@@ -3,6 +3,6 @@ with (import <nixpkgs> {});
 mkShell {
   buildInputs = [
     pandoc haskellPackages.pandoc-crossref
-    texlive.combined.scheme-full
+    texlive.combined.scheme-medium
   ];
 }
