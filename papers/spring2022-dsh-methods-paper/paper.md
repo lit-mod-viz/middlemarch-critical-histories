@@ -1,8 +1,8 @@
 ---
 title: "How Scholars Quote from Source Texts: a Case for Corpus-Adapted Text-Reuse Detection"
 author:
-  - Sierra Eckert
   - Jonathan Reeve
+  - Sierra Eckert
   - Milan Terlunen
 ---
 
@@ -118,10 +118,10 @@ We offer these results not as definitive of *Middlemarch*, let alone of scholarl
 
 # Conclusion
 
-In this article, we’ve shown the importance of corpus-adapted studies of text reuse, using our case study in literary scholarship of a single source text (George Eliot’s *Middlemarch*) and a corpus of JSTOR’s scholarly writings. Our goal has been to provide a workflow for others to study quotations from source texts in corpora of scholarly writings, and to provide a clear pipeline for others using which is available for use on our GitHub repository. While we continue to refine our matching algorithm, our goal has been to illustrate some of the parameter tuning that comes with detecting quotations within a humanities field where quotations compose a significant portion of scholarly writings. Our case study has been in literary studies, but we urge digital humanists of all disciplines to make corpus-specific adaptations in their text-reuse detection studies. Text-reuse detection isn’t one-size-fits-all. Trained in our disciplines, we already have a great deal of tacit knowledge about how quotation works in scholarly writing. We stand to learn more about both domains by developing methods that integrate the two.
+In this article, we’ve shown the importance of domain-specific studies of text reuse, using our case study in literary scholarship of a single source text (George Eliot’s Middlemarch) and JSTOR. Our goal has been to provide a concrete pipeline and workflow for others to study quotations in source texts and other corpora of scholarly writings, and to provide a clear pipeline for others using which is available for use on our GitHub repository. While we continue to refine our matching algorithm––in particular, with the aim of matching more 5-word but less than 12-word strings, our goal has been to illustrate some of the parameter tuning that comes with detecting quotations within a humanities field where quotations compose a significant portion of literary texts. While our case study has been in literary studies, our aim has been to demonstrate the value of local and context-specific methods for studying what parts of texts are quoted, and to offer pathways for further work on different corpora.
 
 # Acknowledgements
 
-For their support on this project, we thank Dennis Tenen, Alex Gil, Roopika Risam, the Group for Experimental Methods in the Humanities at Columbia University, and other contributors to text-matcher through GitHub.
+Alex Gil, Dennis Tenen, Xpmethods group, other contributors to text-matcher
 
 # References
