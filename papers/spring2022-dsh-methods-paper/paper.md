@@ -122,7 +122,7 @@ In this article, we've shown the importance of corpus-adapted studies of text re
 
 # Acknowledgements
 
-For their support on this project, we thank Dennis Tenen, Alex Gil, Roopika Risam, the Group for Experimental Methods in the Humanities at Columbia University, and the contributors to the text-matcher open source project.
+For their support on this project, we thank Dennis Yi Tenen, Alex Gil, Roopika Risam, the Literary Modeling and Visualization Workshop at Columbia University, and the contributors to the text-matcher open source project.
 
 \theendnotes
 
