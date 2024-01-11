@@ -26,11 +26,11 @@ Although we hope to learn and adapt our methods as our research progresses, we h
 
 - Primary text: _Middlemarch_
 - Type of secondary texts: articles only (most easily available in digital form)
-- Chronological range: 1960-2009 (institutional contexts for literary scholarship relatively stable - debatable, certainly, but at least more stable than e.g. nineteenth century)
+- Chronological range: 1960-2019 (institutional contexts for literary scholarship relatively stable - debatable, certainly, but at least more stable than e.g. nineteenth century)
 - Source: JSTOR (large collection, many different journals, easily downloadable)
 
 
 # Results
 
- - See [some results of our analysis here](https://github.com/lit-mod-viz/middlemarch-critical-histories/blob/master/notebooks/jstor-analysis.ipynb)
- - [Explore the annotated _Middlemarch_ here.](http://lit-mod-viz.github.io/middlemarch-critical-histories/annotated.html)
+ - See [some results of our analysis here](https://github.com/lit-mod-viz/middlemarch-critical-histories/blob/master/notebooks/jstor-data-and-analysis.ipynb)
+ - [Explore our font-size visualization of _Middlemarch_ here.](http://lit-mod-viz.github.io/middlemarch-critical-histories/middlemarch_font_size_visualization.html)
